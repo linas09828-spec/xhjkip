@@ -4,31 +4,37 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - xiaohe
-  type: vless
-  server: 66.81.247.155
-  port: 2083
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 194.87.59.17
+  port: 2085
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  network: ws
-  ws-opts:
-    path: /OAZko425kNFF0PpQ
-    headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
+  type: vless
+  uuid: 128314f6-f09a-426f-b758-b8e559c38ddb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 194.87.59.12
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 128314f6-f09a-426f-b758-b8e559c38ddb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 - name: AUTO
   type: url-test
-  url: https://www.google.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 rules:
 - MATCH,PROXIES

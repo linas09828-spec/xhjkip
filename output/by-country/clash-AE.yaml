@@ -5,59 +5,91 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.56.189.27
+  port: 2087
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  type: vless
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  tls: true
+  servername: srv-21bac9.vless.monster
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: freegrpc
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  type: vless
-  server: 104.24.30.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: 89.47.55.8
+  port: 8443
   udp: true
+  type: vless
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
   tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+  reality-opts:
+    public-key: iVDh09Vm2DqZMNQoUdf-LCZ6TqVGb9mLXnClAK2LRj4
+  servername: www.canon.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 45.76.87.125
+  port: 14750
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   type: vless
-  server: 80.240.18.227
-  port: 10051
-  uuid: 73996ef7-544c-45e7-abc0-973218c727e2
-  udp: true
+  uuid: 30f6c75f-8fcd-4555-854f-439f09d3e2e3
   tls: true
-  skip-cert-verify: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  server: 85.204.107.181
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: 2.26.91.98
+  port: 1443
+  udp: true
+  type: vless
+  uuid: d4c6b1ad-9ec4-4273-854a-f0bbf0448ab6
+  tls: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  server: 130.49.161.70
+  port: 443
+  udp: true
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,14 +99,20 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
 - name: AUTO
   type: url-test
-  url: https://www.google.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
 rules:
 - MATCH,PROXIES
