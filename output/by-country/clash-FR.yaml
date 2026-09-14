@@ -5,16 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - dange
-  server: 45.144.28.39
-  port: 2096
+  server: 51.83.192.80
+  port: 8388
   udp: true
-  type: vless
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
 - name: 🇫🇷 法国 (France) 02 - dange
   server: 45.144.28.39
   port: 2083
@@ -24,7 +20,6 @@ proxies:
   tls: true
   servername: usejh2.neobo-tooth.ru
   skip-cert-verify: false
-  client-fingerprint: ios
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
@@ -42,13 +37,45 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 04 - dange
-  server: 51.83.192.80
-  port: 8388
+  server: 212.183.88.136
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
 - name: 🇫🇷 法国 (France) 05 - dange
+  server: 45.144.28.39
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇫🇷 法国 (France) 06 - dange
+  server: 162.19.10.99
+  port: 443
+  udp: true
+  type: vless
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nasnet-162191099-direct.mbghalibaf.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 07 - dange
+  server: 62.210.124.146
+  port: 22000
+  udp: true
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 08 - dange
   server: 62.210.91.10
   port: 23576
   udp: true
@@ -61,79 +88,6 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 06 - dange
-  server: vpn-fr-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 07 - dange
-  server: 162.19.10.99
-  port: 443
-  udp: true
-  type: vless
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 08 - dange
-  server: 51.38.82.1
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
-  tls: true
-  reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-    short-id: 98fa0b00d09419f7
-  servername: play.google.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 09 - dange
-  server: 62.210.7.139
-  port: 60111
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 10 - dange
-  server: 185.114.72.31
-  port: 2053
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 11 - dange
-  server: 62.210.124.146
-  port: 22000
-  udp: true
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 12 - dange
-  server: 149.202.58.99
-  port: 443
-  udp: true
-  type: vless
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  tls: true
-  servername: bab-6.site
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
 proxy-groups:
 - name: PROXIES
   type: select
@@ -147,10 +101,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 06 - dange
   - 🇫🇷 法国 (France) 07 - dange
   - 🇫🇷 法国 (France) 08 - dange
-  - 🇫🇷 法国 (France) 09 - dange
-  - 🇫🇷 法国 (France) 10 - dange
-  - 🇫🇷 法国 (France) 11 - dange
-  - 🇫🇷 法国 (France) 12 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -164,9 +114,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 06 - dange
   - 🇫🇷 法国 (France) 07 - dange
   - 🇫🇷 法国 (France) 08 - dange
-  - 🇫🇷 法国 (France) 09 - dange
-  - 🇫🇷 法国 (France) 10 - dange
-  - 🇫🇷 法国 (France) 11 - dange
-  - 🇫🇷 法国 (France) 12 - dange
 rules:
 - MATCH,PROXIES
