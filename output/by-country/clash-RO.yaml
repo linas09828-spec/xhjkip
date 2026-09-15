@@ -11,16 +11,24 @@ proxies:
   type: hysteria2
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hopp-germany-new.ddnsguru.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - dange
-  server: 205.237.109.168
+  server: 205.237.109.162
   port: 8443
   udp: true
   type: hysteria2
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   sni: hopp-netherland-new.dynuddns.net
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - dange
+  server: 85.204.107.170
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - dange
   server: 46.28.67.55
   port: 443
   udp: true
@@ -33,29 +41,14 @@ proxies:
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - dange
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - dange
   server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: 185.156.44.99
+  sni: www.amazon.com
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - dange
-  server: 85.204.107.186
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: hopp-romania-new.roxa.org
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - dange
-  server: 154.46.31.106
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +59,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - dange
   - 🇷🇴 罗马尼亚 (Romania) 04 - dange
   - 🇷🇴 罗马尼亚 (Romania) 05 - dange
-  - 🇷🇴 罗马尼亚 (Romania) 06 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -77,6 +69,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - dange
   - 🇷🇴 罗马尼亚 (Romania) 04 - dange
   - 🇷🇴 罗马尼亚 (Romania) 05 - dange
-  - 🇷🇴 罗马尼亚 (Romania) 06 - dange
 rules:
 - MATCH,PROXIES
