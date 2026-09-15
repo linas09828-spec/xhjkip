@@ -28,14 +28,37 @@ proxies:
   grpc-opts:
     grpc-service-name: freegrpc
 - name: 🇦🇪 阿联酋 (UAE) 03 - dange
-  server: 85.204.107.181
+  server: 45.130.125.201
+  port: 80
+  udp: true
+  type: vless
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - dange
+  server: 85.204.107.176
   port: 8080
   udp: true
   type: hysteria2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 04 - dange
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 05 - dange
+  server: 31.58.181.88
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 1423f399-74d3-4d99-90b9-bc7cae1af706
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - dange
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -55,6 +78,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
   - 🇦🇪 阿联酋 (UAE) 04 - dange
+  - 🇦🇪 阿联酋 (UAE) 05 - dange
+  - 🇦🇪 阿联酋 (UAE) 06 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,5 +89,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
   - 🇦🇪 阿联酋 (UAE) 04 - dange
+  - 🇦🇪 阿联酋 (UAE) 05 - dange
+  - 🇦🇪 阿联酋 (UAE) 06 - dange
 rules:
 - MATCH,PROXIES

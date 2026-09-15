@@ -6,70 +6,26 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dange",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
+      "server": "srv-17e124.21freedom.net",
+      "server_port": 11592,
+      "password": "41edb44c8e",
       "tls": {
         "enabled": true,
-        "server_name": "hy.quattro-tech.ru",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
-      "server": "msk.frkn.org",
-      "server_port": 443,
-      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk.frkn.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
+        "server_name": "off",
+        "insecure": true
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
       "server": "130.49.189.158",
       "server_port": 43558,
       "method": "chacha20-ietf-poly1305",
       "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
-      "server": "els1.mangshe.xyz",
-      "server_port": 2056,
-      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dange",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
@@ -91,6 +47,18 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
+      "server": "msk.frkn.org",
+      "server_port": 443,
+      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
+      "tls": {
+        "enabled": true,
+        "server_name": "msk.frkn.org",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -98,9 +66,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange"
+        "🇷🇺 俄罗斯 (Russia) 04 - dange"
       ]
     },
     {
@@ -110,9 +76,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange"
+        "🇷🇺 俄罗斯 (Russia) 04 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
