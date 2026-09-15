@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dange",
-      "server": "194.87.196.13",
+      "server": "195.133.5.102",
       "server_port": 7018,
       "method": "aes-256-gcm",
-      "password": "4938e975724d0ed1"
+      "password": "895b4b796a357570"
     },
     {
       "type": "shadowsocks",
@@ -20,55 +20,8 @@
       "password": "81a20429165df87e"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
-      "server": "195.133.5.102",
-      "server_port": 7018,
-      "method": "aes-256-gcm",
-      "password": "895b4b796a357570"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
-      "server": "195.58.48.137",
-      "server_port": 7018,
-      "method": "aes-256-gcm",
-      "password": "8ad9d72a5571df86"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dange",
-      "server": "ru2.oshost.network",
-      "server_port": 80,
-      "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/stream"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - dange",
-      "server": "srv-17e124.21freedom.net",
-      "server_port": 11592,
-      "password": "41edb44c8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - dange",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
@@ -79,63 +32,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - dange",
-      "server": "46.8.200.91",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/casc",
-        "headers": {
-          "Host": "cf3.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - dange",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange",
-        "🇷🇺 俄罗斯 (Russia) 07 - dange",
-        "🇷🇺 俄罗斯 (Russia) 08 - dange",
-        "🇷🇺 俄罗斯 (Russia) 09 - dange",
-        "🇷🇺 俄罗斯 (Russia) 10 - dange"
+        "🇷🇺 俄罗斯 (Russia) 03 - dange"
       ]
     },
     {
@@ -144,14 +47,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange",
-        "🇷🇺 俄罗斯 (Russia) 07 - dange",
-        "🇷🇺 俄罗斯 (Russia) 08 - dange",
-        "🇷🇺 俄罗斯 (Russia) 09 - dange",
-        "🇷🇺 俄罗斯 (Russia) 10 - dange"
+        "🇷🇺 俄罗斯 (Russia) 03 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
