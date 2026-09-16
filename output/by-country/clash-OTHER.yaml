@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - dange
-  server: 172.67.221.230
+  server: 104.25.30.10
   port: 443
   udp: true
   type: vless
-  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
+  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
   tls: true
-  servername: novantunnel.tech
+  servername: de14.69lover.my
   skip-cert-verify: false
-  client-fingerprint: randomized
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /Novan-AE9
+    path: /api/v2/6c316c769ad6853c/stream
     headers:
-      Host: novantunnel.tech
+      Host: de14.69lover.my
 proxy-groups:
 - name: PROXIES
   type: select

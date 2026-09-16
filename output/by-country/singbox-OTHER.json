@@ -6,23 +6,26 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - dange",
-      "server": "172.67.221.230",
+      "server": "104.25.30.10",
       "server_port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
       "tls": {
         "enabled": true,
-        "server_name": "novantunnel.tech",
+        "server_name": "de14.69lover.my",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/Novan-AE9",
+        "path": "/api/v2/6c316c769ad6853c/stream",
         "headers": {
-          "Host": "novantunnel.tech"
+          "Host": "de14.69lover.my"
         }
       }
     },
