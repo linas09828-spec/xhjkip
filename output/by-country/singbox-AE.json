@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dange",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "71470f80-ee36-47e0-8089-0987657ea5d4",
+      "uuid": "5059a06c-ed43-48d8-a276-b202c55019e8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -33,7 +33,14 @@
       "tls": {
         "enabled": true,
         "server_name": "srv-21bac9.vless.monster",
-        "insecure": false
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
       "transport": {
         "type": "grpc",
@@ -65,21 +72,17 @@
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": false
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - dange",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+        "type": "ws"
       }
     },
     {
