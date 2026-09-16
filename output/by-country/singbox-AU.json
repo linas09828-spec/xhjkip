@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇦🇺 澳大利亚 (Australia) 01 - dange",
-      "server": "82.198.246.233",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dange",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - dange",
       "server": "103.75.119.126",
       "server_port": 2087,
       "uuid": "731f177e-00aa-480c-b935-661456139a32",
@@ -23,18 +15,26 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dange",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto"
+    },
+    {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - dange",
       "server": "au1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "fee2c73a-d527-4b3f-9d48-0631168d83e8",
+      "uuid": "c80d9d87-0aa6-4b45-9673-7a9d1e5e4d6b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
