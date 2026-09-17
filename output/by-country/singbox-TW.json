@@ -4,50 +4,9 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - dange",
-      "server": "35.201.230.136",
-      "server_port": 443,
-      "uuid": "18eef0d3-35b3-4a5f-97a1-7b5264530dd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Uq9Q8VXK9VkVOJ1M5PfORTqMhjjGoIS40-V0tAG_1FM",
-          "short_id": "5e13a6d43d0644c9"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dange",
-      "server": "85.237.207.49",
-      "server_port": 50160,
-      "password": "a56619e2bed91121eabb97d20be207c3",
-      "tls": {
-        "enabled": true,
-        "server_name": "85-237-207-49.liao.kdns.fr",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dange",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dange",
-      "server": "160.187.100.109",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
@@ -58,34 +17,34 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - dange",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dange",
       "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https",
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - dange",
-      "server": "104.199.219.172",
-      "server_port": 40800,
-      "uuid": "5859f6a7-cda1-47c2-8353-fcdee281f31d",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dange",
+      "server": "35.201.230.136",
+      "server_port": 443,
+      "uuid": "18eef0d3-35b3-4a5f-97a1-7b5264530dd8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo",
-          "short_id": "186e4c2732d61a3d"
+          "public_key": "Uq9Q8VXK9VkVOJ1M5PfORTqMhjjGoIS40-V0tAG_1FM",
+          "short_id": "5e13a6d43d0644c9"
         }
       }
     },
@@ -96,10 +55,7 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 06 - dange"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dange"
       ]
     },
     {
@@ -108,10 +64,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 06 - dange"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
