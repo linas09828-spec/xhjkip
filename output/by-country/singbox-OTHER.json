@@ -4,21 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇭🇺 匈牙利 (Hungary) 01 - dange",
-      "server": "185.225.68.232",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 01 - dange",
+      "server": "172.67.156.147",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "jp3.yohototo.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -27,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇺 匈牙利 (Hungary) 01 - dange"
+        "🌐 其他地区 (Other) 01 - dange"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 匈牙利 (Hungary) 01 - dange"
+        "🌐 其他地区 (Other) 01 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
