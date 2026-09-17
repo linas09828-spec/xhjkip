@@ -18,6 +18,30 @@ proxies:
   servername: www.bing.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - dange
+  server: 47.240.80.220
+  port: 2052
+  udp: true
+  type: trojan
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  sni: vpn.12169.top
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - dange
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dange
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - dange
   server: 34.92.123.152
   port: 443
   udp: true
@@ -30,31 +54,15 @@ proxies:
     short-id: 56c35a22730a22e5
   servername: www.cloudflare.com
   client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - dange
-  server: 47.240.80.220
-  port: 2052
-  udp: true
-  type: trojan
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  sni: vpn.12169.top
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dange
-  server: 202.146.222.89
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dange
+  server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fclashv8
+  sni: https%3a%2f%2ft.me%2fwangcai2
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - dange
-  server: 119.246.1.143
-  port: 443
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dange
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dange
   server: hk-1.gsafevpnapi.com
   port: 20270
   udp: true
@@ -66,22 +74,38 @@ proxies:
     public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
     short-id: d5b538acf8a93540
   servername: www.yahoo.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dange
-  server: 202.146.222.174
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dange
+  server: www.shopify.com
   port: 443
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dange
+  type: vmess
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: yoga-suggesting-recording-calls.trycloudflare.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+    headers:
+      Host: yoga-suggesting-recording-calls.trycloudflare.com
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dange
   server: mz.hkychina.com
   port: 8443
   udp: true
   type: hysteria2
   password: HysTeria2026!Proxy
   sni: mz.hkychina.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dange
+  server: 119.246.1.143
+  port: 443
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: 119.246.1.143
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -96,6 +120,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - dange
   - 🇭🇰 中国香港 (Hong Kong) 07 - dange
   - 🇭🇰 中国香港 (Hong Kong) 08 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 09 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -109,5 +135,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - dange
   - 🇭🇰 中国香港 (Hong Kong) 07 - dange
   - 🇭🇰 中国香港 (Hong Kong) 08 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 09 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dange
 rules:
 - MATCH,PROXIES
