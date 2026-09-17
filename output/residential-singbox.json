@@ -5,43 +5,47 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - dange",
-      "server": "162.159.38.127",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - dange",
+      "server": "104.238.148.149",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560security=tls",
+        "path": "/about?ed=2560",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - dange",
-      "server": "104.18.46.46",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - dange",
+      "server": "hg.zhujue.us",
+      "server_port": 11000,
+      "uuid": "0e46345c-f33b-4f9b-b8ec-90e7c986af7e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s0.awsstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4",
+          "short_id": ""
         }
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange",
-      "server": "36.224.185.173",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    },
-    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dange",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange",
       "server": "7dba81fc3a0b.oylfmxz.cn",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
@@ -52,7 +56,11 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "7dba81fc3a0b.oylfmxz.cn"
+        }
       }
     },
     {
@@ -60,20 +68,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - dange",
-        "🇺🇸 美国 (United States) 02 (家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dange"
+        "🇯🇵 日本 (Japan) 01 (家宽) - dange",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - dange",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - dange",
-        "🇺🇸 美国 (United States) 02 (家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dange"
+        "🇯🇵 日本 (Japan) 01 (家宽) - dange",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - dange",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
