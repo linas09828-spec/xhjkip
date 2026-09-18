@@ -63,6 +63,9 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://raw.githubusercontent.com/linas09828-spec/Senflare-DNS-IP36/refs/heads/main/Ranking.txt",
+    "https://raw.githubusercontent.com/linas09828-spec/Senflare-DNS-IP36/refs/heads/main/DNSIPlist-Pro.txt",
+    "https://raw.githubusercontent.com/linas09828-spec/Senflare-DNS-IP36/refs/heads/main/DNSIPlist.txt",
 ]
 
 OUTPUT_DIR = "output"
