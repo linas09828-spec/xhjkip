@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇻 拉脱维亚 (Latvia) 01 - dange
-  server: 104.24.30.89
+- name: 🌐 其他地区 (Other) 01 - dange
+  server: 172.67.132.194
   port: 443
   udp: true
   type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  skip-cert-verify: true
+  servername: 1-m13.AyutTHAYa-8.kDnS.FR
+  skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: 1-m13.aYUTThAya-8.KDNs.fR
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇻 拉脱维亚 (Latvia) 01 - dange
+  - 🌐 其他地区 (Other) 01 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇻 拉脱维亚 (Latvia) 01 - dange
+  - 🌐 其他地区 (Other) 01 - dange
 rules:
 - MATCH,PROXIES
