@@ -12,20 +12,24 @@
       "security": "auto"
     },
     {
-      "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 02 - dange",
-      "server": "168.110.60.104",
-      "server_port": 18112,
-      "uuid": "ad45f8f6-0f0a-4cc4-b907-c4582407dc94",
-      "security": "auto"
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 03 - dange",
+      "tag": "🇯🇵 日本 (Japan) 02 - dange",
       "server": "149.22.87.204",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 (Japan) 03 - dange",
+      "server": "138.3.208.26",
+      "server_port": 50160,
+      "password": "184cdec28da5a09450803c8debcd2cc9",
+      "tls": {
+        "enabled": true,
+        "server_name": "138.3.208.26",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
@@ -49,9 +53,38 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 05 - dange",
-      "server": "207.148.94.254",
+      "server": "84.247.155.196",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 06 - dange",
+      "server": "3.114.220.22",
+      "server_port": 10583,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 07 - dange",
+      "server": "207.148.99.230",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -65,7 +98,6 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/library?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -73,30 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 06 - dange",
-      "server": "206.251.53.91",
-      "server_port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/settings?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 07 - dange",
+      "tag": "🇯🇵 日本 (Japan) 08 - dange",
       "server": "45.76.206.46",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
@@ -119,8 +128,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 08 - dange",
-      "server": "108.160.136.71",
+      "tag": "🇯🇵 日本 (Japan) 09 - dange",
+      "server": "104.238.148.149",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -130,7 +139,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/doc/products/view?ed=2560fp=chrome",
+        "path": "/about?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -138,7 +147,99 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 09 - dange",
+      "tag": "🇯🇵 日本 (Japan) 10 - dange",
+      "server": "210.152.85.154",
+      "server_port": 19364,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/collect/user/products?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 11 - dange",
+      "server": "206.251.53.91",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/settings?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 12 - dange",
+      "server": "108.160.136.71",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/doc/products/view?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 13 - dange",
+      "server": "64.176.60.226",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/documents?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 14 - dange",
       "server": "203.137.165.164",
       "server_port": 57554,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
@@ -160,49 +261,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 10 - dange",
+      "tag": "🇯🇵 日本 (Japan) 15 - dange",
       "server": "3.114.220.22",
-      "server_port": 18007,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 11 - dange",
-      "server": "210.152.85.154",
-      "server_port": 19364,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/collect/user/products?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 12 - dange",
-      "server": "3.114.220.22",
-      "server_port": 10583,
+      "server_port": 19645,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -221,7 +282,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 13 - dange",
+      "tag": "🇯🇵 日本 (Japan) 16 - dange",
+      "server": "207.148.94.254",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/library?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 17 - dange",
       "server": "162.159.254.3",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
@@ -244,56 +328,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 14 - dange",
-      "server": "64.176.60.226",
-      "server_port": 443,
+      "tag": "🇯🇵 日本 (Japan) 18 - dange",
+      "server": "92.113.124.204",
+      "server_port": 18443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/documents?ed=2560fp=chrome",
+        "path": "/directory/ads/news?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 15 - dange",
-      "server": "msjp1.mangshe.xyz",
-      "server_port": 20561,
-      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 16 - dange",
-      "server": "138.3.208.26",
-      "server_port": 50160,
-      "password": "184cdec28da5a09450803c8debcd2cc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "138.3.208.26",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 17 - dange",
+      "tag": "🇯🇵 日本 (Japan) 19 - dange",
       "server": "3.114.220.22",
-      "server_port": 19645,
+      "server_port": 18007,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -301,7 +357,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -311,29 +367,16 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇯🇵 日本 (Japan) 18 - dange",
-      "server": "161.34.39.108",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 20 - dange",
+      "server": "137.220.221.179",
       "server_port": 443,
-      "password": "tsuchiya",
-      "tls": {
-        "enabled": true,
-        "server_name": "aa.ccmusic.jp",
-        "insecure": false
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 19 - dange",
-      "server": "84.247.155.196",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "3eOFeNssde7PYYMv"
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4"
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 20 - dange",
-      "server": "207.148.99.230",
+      "tag": "🇯🇵 日本 (Japan) 21 - dange",
+      "server": "64.83.39.176",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -347,9 +390,60 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/seller?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 22 - dange",
+      "server": "110.10.178.240",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/albums?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 23 - dange",
+      "server": "168.110.112.196",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pay/music?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 (Japan) 24 - dange",
+      "server": "msjp1.mangshe.xyz",
+      "server_port": 20561,
+      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true
       }
     },
     {
@@ -376,7 +470,11 @@
         "🇯🇵 日本 (Japan) 17 - dange",
         "🇯🇵 日本 (Japan) 18 - dange",
         "🇯🇵 日本 (Japan) 19 - dange",
-        "🇯🇵 日本 (Japan) 20 - dange"
+        "🇯🇵 日本 (Japan) 20 - dange",
+        "🇯🇵 日本 (Japan) 21 - dange",
+        "🇯🇵 日本 (Japan) 22 - dange",
+        "🇯🇵 日本 (Japan) 23 - dange",
+        "🇯🇵 日本 (Japan) 24 - dange"
       ]
     },
     {
@@ -402,7 +500,11 @@
         "🇯🇵 日本 (Japan) 17 - dange",
         "🇯🇵 日本 (Japan) 18 - dange",
         "🇯🇵 日本 (Japan) 19 - dange",
-        "🇯🇵 日本 (Japan) 20 - dange"
+        "🇯🇵 日本 (Japan) 20 - dange",
+        "🇯🇵 日本 (Japan) 21 - dange",
+        "🇯🇵 日本 (Japan) 22 - dange",
+        "🇯🇵 日本 (Japan) 23 - dange",
+        "🇯🇵 日本 (Japan) 24 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
