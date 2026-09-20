@@ -44,31 +44,8 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - dange",
-      "server": "94.183.170.135",
-      "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - dange",
-      "server": "217.60.182.79",
-      "server_port": 443,
-      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-      "tls": {
-        "enabled": true,
-        "server_name": "cabinet.wwwinternetvideo.click",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - dange",
       "server": "tishina-axe.dedyn.io",
       "server_port": 8443,
       "password": "319ed24b1c7203aa",
@@ -88,9 +65,7 @@
         "auto",
         "🇪🇪 爱沙尼亚 (Estonia) 01 - dange",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - dange"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange"
       ]
     },
     {
@@ -99,9 +74,7 @@
       "outbounds": [
         "🇪🇪 爱沙尼亚 (Estonia) 01 - dange",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - dange"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
