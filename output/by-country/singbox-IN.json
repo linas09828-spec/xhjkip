@@ -6,41 +6,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - dange",
-      "server": "172.67.208.1",
-      "server_port": 443,
-      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
-      "tls": {
-        "enabled": true,
-        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 02 - dange",
-      "server": "13.207.151.141",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - dange",
       "server": "34.47.245.203",
       "server_port": 443,
       "uuid": "3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc",
@@ -56,6 +21,30 @@
           "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
           "short_id": "50440423703c945f"
         }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 印度 (India) 02 - dange",
+      "server": "vpn-in-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.tinkoff.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 印度 (India) 03 - dange",
+      "server": "13.207.151.141",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-in-001.fastervpn.world",
+        "insecure": true
       }
     },
     {
@@ -79,31 +68,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 05 - dange",
-      "server": "35.154.58.87",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 06 - dange",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 07 - dange",
+      "tag": "🇮🇳 印度 (India) 05 - dange",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -112,31 +78,12 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
           "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
           "short_id": "9980e0609b0d3891"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 08 - dange",
-      "server": "152.70.76.104",
-      "server_port": 46000,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/acg/series/help?ed=2560fp=chrome",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -149,10 +96,7 @@
         "🇮🇳 印度 (India) 02 - dange",
         "🇮🇳 印度 (India) 03 - dange",
         "🇮🇳 印度 (India) 04 - dange",
-        "🇮🇳 印度 (India) 05 - dange",
-        "🇮🇳 印度 (India) 06 - dange",
-        "🇮🇳 印度 (India) 07 - dange",
-        "🇮🇳 印度 (India) 08 - dange"
+        "🇮🇳 印度 (India) 05 - dange"
       ]
     },
     {
@@ -163,10 +107,7 @@
         "🇮🇳 印度 (India) 02 - dange",
         "🇮🇳 印度 (India) 03 - dange",
         "🇮🇳 印度 (India) 04 - dange",
-        "🇮🇳 印度 (India) 05 - dange",
-        "🇮🇳 印度 (India) 06 - dange",
-        "🇮🇳 印度 (India) 07 - dange",
-        "🇮🇳 印度 (India) 08 - dange"
+        "🇮🇳 印度 (India) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
