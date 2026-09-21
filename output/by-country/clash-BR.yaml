@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - dange
-  server: 210.152.85.154
-  port: 19364
+- name: 🇧🇷 巴西 (Brazil) 01 - dange
+  server: 157.228.142.148
+  port: 8443
   udp: true
   type: vless
-  uuid: d6c21f6f-2e7e-479d-a4d9-4069995867ed
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /act/rank/lang?ed=2560
     headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - dange
+  - 🇧🇷 巴西 (Brazil) 01 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - dange
+  - 🇧🇷 巴西 (Brazil) 01 - dange
 rules:
 - MATCH,PROXIES

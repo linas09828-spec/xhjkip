@@ -4,23 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 01 - dange",
-      "server": "34.47.245.203",
+      "server": "vpn-in-001.fastervpn.world",
       "server_port": 443,
-      "uuid": "3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
-          "short_id": "50440423703c945f"
-        }
+        "server_name": "vk.com",
+        "insecure": true
       }
     },
     {
@@ -44,35 +36,35 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - dange",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "short_id": "9980e0609b0d3891"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 04 - dange",
-      "server": "vpn-in-001.fastervpn.world",
+      "tag": "🇮🇳 印度 (India) 03 - dange",
+      "server": "35.154.58.87",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "vpn-in-001.fastervpn.world",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 04 - dange",
+      "server": "34.47.245.203",
+      "server_port": 443,
+      "uuid": "3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
+          "short_id": "50440423703c945f"
+        }
       }
     },
     {
