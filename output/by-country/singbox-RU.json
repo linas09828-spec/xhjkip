@@ -11,14 +11,14 @@
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "hy.quattro-tech.ru",
+        "server_name": "itsallproxy.quattro-tech.ru",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
-      "server": "132.243.203.218",
+      "server": "157.228.142.148",
       "server_port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -32,7 +32,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/v?ed=2560",
+        "path": "/act/rank/lang?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -41,6 +41,47 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
+      "server": "193.181.216.117",
+      "server_port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
+      "server": "46.8.200.91",
+      "server_port": 443,
+      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -65,7 +106,9 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange"
+        "🇷🇺 俄罗斯 (Russia) 03 - dange",
+        "🇷🇺 俄罗斯 (Russia) 04 - dange",
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ]
     },
     {
@@ -74,7 +117,9 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange"
+        "🇷🇺 俄罗斯 (Russia) 03 - dange",
+        "🇷🇺 俄罗斯 (Russia) 04 - dange",
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
