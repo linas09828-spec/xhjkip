@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dange",
-      "server": "172.64.229.170",
+      "server": "162.159.45.19",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -18,81 +18,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
-      "server": "172.64.32.103",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
-      "server": "172.67.158.158",
-      "server_port": 443,
-      "password": "Siw3_iSte@ulOTO,-",
-      "tls": {
-        "enabled": true,
-        "server_name": "4zgCcbCb10PqYIBNwmM4NVzNj4.RoyaehmaN5.WORkErs.DeV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/fZ9yFHHYZsOSWv2vnEhP?ed=2560",
-        "headers": {
-          "Host": "4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
-      "server": "162.159.43.187",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
-      "server": "104.17.148.22",
-      "server_port": 443,
-      "uuid": "518de0d4-6ce8-4404-80db-23c4a8806128",
-      "tls": {
-        "enabled": true,
-        "server_name": "ez-5faafb.esmaoi.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiQkFLTnhqM2tZTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "ez-5faafb.esmaoi.workers.dev"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dange",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
@@ -100,6 +27,68 @@
         "enabled": true,
         "server_name": "hy.quattro-tech.ru",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
+      "server": "5.129.238.144",
+      "server_port": 8443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "xinnusvpn.duckdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wsnl",
+        "headers": {
+          "Host": "xinnusvpn.duckdns.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
+      "server": "46.8.200.91",
+      "server_port": 443,
+      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
+        }
       }
     },
     {
@@ -111,8 +100,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
         "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange"
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ]
     },
     {
@@ -123,8 +111,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
         "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange"
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
