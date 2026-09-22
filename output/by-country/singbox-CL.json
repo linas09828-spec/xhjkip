@@ -14,7 +14,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -26,15 +26,40 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 02 - dange",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 03 - dange",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 04 - dange",
       "server": "platform118.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform118",
-        "headers": {
-          "Host": "platform118.halalkhor.info"
-        }
+        "path": "/platform118"
       }
     },
     {
@@ -43,7 +68,9 @@
       "outbounds": [
         "auto",
         "🇨🇱 智利 (Chile) 01 - dange",
-        "🇨🇱 智利 (Chile) 02 - dange"
+        "🇨🇱 智利 (Chile) 02 - dange",
+        "🇨🇱 智利 (Chile) 03 - dange",
+        "🇨🇱 智利 (Chile) 04 - dange"
       ]
     },
     {
@@ -51,7 +78,9 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇱 智利 (Chile) 01 - dange",
-        "🇨🇱 智利 (Chile) 02 - dange"
+        "🇨🇱 智利 (Chile) 02 - dange",
+        "🇨🇱 智利 (Chile) 03 - dange",
+        "🇨🇱 智利 (Chile) 04 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
