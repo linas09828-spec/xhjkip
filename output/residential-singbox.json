@@ -4,12 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange",
-      "server": "36.224.141.124",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - dange",
+      "server": "95.181.162.170",
+      "server_port": 444,
+      "uuid": "7094cade-110a-4be0-b657-15d606dcea6d",
+      "tls": {
+        "enabled": true,
+        "server_name": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
+        }
+      }
     },
     {
       "type": "vmess",
@@ -24,7 +39,11 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn"
+        }
       }
     },
     {
@@ -32,7 +51,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange",
+        "🇯🇵 日本 (Japan) 01 (家宽) - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange"
       ]
     },
@@ -40,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange",
+        "🇯🇵 日本 (Japan) 01 (家宽) - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
