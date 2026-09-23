@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange",
-      "server": "ttszhrmghgdssbkqf.cfooov.xyz",
-      "server_port": 42241,
-      "uuid": "55848813-689e-4a39-82cf-00748cbc7289",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - dange",
+      "server": "104.25.155.45",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "r5zenrelur2s.pqzdileiu8es.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lFZuIsmEomT8zwJ2f7wTI-C87oA78R9amDVHgemYmmQ",
-          "short_id": "1cb574e4d5d8"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1",
+        "headers": {
+          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - dange"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dange"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

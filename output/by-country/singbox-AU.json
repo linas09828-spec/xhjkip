@@ -4,25 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - dange",
-      "server": "51.161.204.244",
-      "server_port": 443,
-      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
-          "short_id": "0ad08b47f498efd2"
-        }
-      }
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto"
     },
     {
       "type": "vless",
@@ -35,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -47,20 +34,21 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - dange",
-      "server": "34.87.244.111",
+      "server": "51.161.204.244",
       "server_port": 443,
-      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
-          "short_id": "d725f0dd8cce210f"
+          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
+          "short_id": "0ad08b47f498efd2"
         }
       }
     },
@@ -69,7 +57,7 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 04 - dange",
       "server": "au1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "8f2774ba-73fe-404d-a01b-7c01812ff75b",
+      "uuid": "52e89791-cc65-4cdb-9d3a-7c06df9f6ebd",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -86,6 +74,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - dange",
+      "server": "34.87.244.111",
+      "server_port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+          "short_id": "d725f0dd8cce210f"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -93,7 +101,8 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dange",
         "🇦🇺 澳大利亚 (Australia) 02 - dange",
         "🇦🇺 澳大利亚 (Australia) 03 - dange",
-        "🇦🇺 澳大利亚 (Australia) 04 - dange"
+        "🇦🇺 澳大利亚 (Australia) 04 - dange",
+        "🇦🇺 澳大利亚 (Australia) 05 - dange"
       ]
     },
     {
@@ -103,7 +112,8 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dange",
         "🇦🇺 澳大利亚 (Australia) 02 - dange",
         "🇦🇺 澳大利亚 (Australia) 03 - dange",
-        "🇦🇺 澳大利亚 (Australia) 04 - dange"
+        "🇦🇺 澳大利亚 (Australia) 04 - dange",
+        "🇦🇺 澳大利亚 (Australia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -26,21 +26,17 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - dange",
-      "server": "62.238.103.54",
-      "server_port": 2083,
-      "uuid": "d78de562-872e-43dd-be48-e9d7b06c87a3",
+      "server": "193.23.201.65",
+      "server_port": 5432,
+      "uuid": "e84e0918-68ca-4fcc-a1d1-b566fd9ac7ee",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yahoo.com",
+        "server_name": "193.23.201.65",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tADYkZWWksM_mCqqwlRHCciSCXnP3JMYrPi5eoRHh2s",
-          "short_id": "d059fb98048c5318"
+          "fingerprint": "safari"
         }
       }
     },
@@ -53,12 +49,33 @@
       "tls": {
         "enabled": true,
         "server_name": "iq5ny.pleiades.codes",
-        "insecure": false
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - dange",
+      "server": "62.60.229.124",
+      "server_port": 8443,
+      "uuid": "5b754a1a-11aa-4df9-a8ba-44af9a579fe1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "finland.b2ai.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MjRaYQ5TjfU2rfHxVQ2Sa4nXRHHvsMvi3DW-x09n8Ts",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - dange",
       "server": "31.76.80.230",
       "server_port": 8443,
       "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
@@ -87,7 +104,8 @@
         "🇫🇮 芬兰 (Finland) 01 - dange",
         "🇫🇮 芬兰 (Finland) 02 - dange",
         "🇫🇮 芬兰 (Finland) 03 - dange",
-        "🇫🇮 芬兰 (Finland) 04 - dange"
+        "🇫🇮 芬兰 (Finland) 04 - dange",
+        "🇫🇮 芬兰 (Finland) 05 - dange"
       ]
     },
     {
@@ -97,7 +115,8 @@
         "🇫🇮 芬兰 (Finland) 01 - dange",
         "🇫🇮 芬兰 (Finland) 02 - dange",
         "🇫🇮 芬兰 (Finland) 03 - dange",
-        "🇫🇮 芬兰 (Finland) 04 - dange"
+        "🇫🇮 芬兰 (Finland) 04 - dange",
+        "🇫🇮 芬兰 (Finland) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

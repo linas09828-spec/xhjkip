@@ -4,91 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 - dange",
-      "server": "138.199.43.159",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 - dange",
-      "server": "15.204.97.206",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 03 - dange",
-      "server": "5.78.159.214",
-      "server_port": 80,
-      "uuid": "52ecd83b-b6c1-41ee-bc36-049755bd33d2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "5.78.159.214",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NTXb7QGg9EyPkpG-7lmBNNaqf4473p_l8ITmTH-xmHg",
-          "short_id": "0db5c018ed7bb596"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 04 - dange",
-      "server": "162.159.45.19",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 05 - dange",
-      "server": "34.19.91.203",
-      "server_port": 443,
-      "uuid": "9d0395c0-016f-453e-b0be-fc66f1ee1d80",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE",
-          "short_id": "bd4aa541e5306ba2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 06 - dange",
       "server": "15.204.97.209",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -108,22 +25,108 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 07 - dange",
-      "server": "66.94.121.46",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 02 - dange",
+      "server": "172.64.52.6",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 03 - dange",
+      "server": "172.64.42.85",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 04 - dange",
+      "server": "162.159.39.218",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 05 - dange",
+      "server": "15.204.97.198",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "66.94.121.46",
-        "insecure": true
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 06 - dange",
+      "server": "15.204.97.195",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 07 - dange",
+      "server": "108.162.198.178",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 08 - dange",
-      "server": "104.18.46.46",
-      "server_port": 2095,
+      "server": "172.64.52.6",
+      "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -136,36 +139,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 09 - dange",
-      "server": "162.159.39.218",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 10 - dange",
       "server": "162.159.43.187",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 11 - dange",
-      "server": "172.64.32.108",
-      "server_port": 80,
+      "server_port": 2095,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -177,30 +152,16 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 12 - dange",
-      "server": "108.181.0.177",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G5p6ww4o67HB"
+      "tag": "🇺🇸 美国 (United States) 10 - dange",
+      "server": "138.199.43.159",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 13 - dange",
-      "server": "172.64.42.85",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 14 - dange",
-      "server": "15.204.97.214",
+      "tag": "🇺🇸 美国 (United States) 11 - dange",
+      "server": "15.204.97.206",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -219,10 +180,22 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 12 - dange",
+      "server": "66.94.121.46",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.broadcom.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 15 - dange",
-      "server": "162.159.0.53",
-      "server_port": 2052,
+      "tag": "🇺🇸 美国 (United States) 13 - dange",
+      "server": "172.64.42.85",
+      "server_port": 2095,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -234,8 +207,43 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 14 - dange",
+      "server": "162.159.43.187",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 15 - dange",
+      "server": "129.146.124.141",
+      "server_port": 50356,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "zyjgAJte5t9OP35LYOD8CAf3QqvcSzcclM74XlByG4c="
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 16 - dange",
-      "server": "162.159.0.53",
+      "server": "172.64.154.8",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 17 - dange",
+      "server": "104.18.46.234",
       "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -247,38 +255,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 17 - dange",
-      "server": "108.162.198.178",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇺🇸 美国 (United States) 18 - dange",
-      "server": "172.64.52.6",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tlssecurity=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
+      "server": "216.152.152.187",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 19 - dange",
-      "server": "162.159.48.32",
-      "server_port": 2082,
+      "server": "172.64.158.146",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -291,132 +279,49 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 20 - dange",
-      "server": "104.18.46.46",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "18f3c22c-27c8-45e8-9ca3-925c98638f66",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 21 - dange",
-      "server": "15.204.97.216",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "server": "51.81.203.63",
+      "server_port": 443,
+      "uuid": "cb2dbb6a-a1ea-4023-9ace-6466cee57241",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fuck.rkn",
+        "server_name": "www.icloud.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "public_key": "nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0",
+          "short_id": "4477382ff6d3d41c"
         }
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 22 - dange",
-      "server": "216.106.185.141",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 23 - dange",
-      "server": "108.162.198.178",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 24 - dange",
-      "server": "162.159.43.187",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 25 - dange",
-      "server": "172.64.158.146",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 26 - dange",
       "server": "162.159.39.218",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 27 - dange",
-      "server": "172.64.154.8",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 28 - dange",
-      "server": "162.159.24.131",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 29 - dange",
-      "server": "162.159.45.19",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -429,31 +334,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 30 - dange",
-      "server": "172.64.158.146",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 31 - dange",
-      "server": "167.17.68.89",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 32 - dange",
-      "server": "172.64.42.85",
-      "server_port": 8080,
+      "tag": "🇺🇸 美国 (United States) 23 - dange",
+      "server": "162.159.45.19",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -464,24 +347,45 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 24 - dange",
+      "server": "100.42.228.109",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 33 - dange",
-      "server": "188.114.97.6",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "tag": "🇺🇸 美国 (United States) 25 - dange",
+      "server": "66.235.200.171",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+          "Host": "xi.tbv.ccwu.cc"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 34 - dange",
+      "tag": "🇺🇸 美国 (United States) 26 - dange",
       "server": "188.114.97.6",
-      "server_port": 80,
+      "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -493,8 +397,125 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 35 - dange",
-      "server": "172.64.32.108",
+      "tag": "🇺🇸 美国 (United States) 27 - dange",
+      "server": "172.64.52.6",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 28 - dange",
+      "server": "162.159.0.169",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 29 - dange",
+      "server": "104.18.46.234",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 30 - dange",
+      "server": "108.162.198.178",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 31 - dange",
+      "server": "172.64.53.55",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 32 - dange",
+      "server": "5.78.159.214",
+      "server_port": 80,
+      "uuid": "52ecd83b-b6c1-41ee-bc36-049755bd33d2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "5.78.159.214",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NTXb7QGg9EyPkpG-7lmBNNaqf4473p_l8ITmTH-xmHg",
+          "short_id": "0db5c018ed7bb596"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 33 - dange",
+      "server": "104.21.28.88",
+      "server_port": 443,
+      "password": "c0c17d1da2c2c9299d5094c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-3e9698.ezaccess1ec1f0c.workers.dev",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiMDdteWJvazY4azJ3MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "ez-3e9698.ezaccess1ec1f0c.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 34 - dange",
+      "server": "172.64.53.55",
       "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -507,8 +528,36 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 36 - dange",
+      "tag": "🇺🇸 美国 (United States) 35 - dange",
       "server": "188.114.97.6",
+      "server_port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 36 - dange",
+      "server": "162.159.43.187",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 37 - dange",
+      "server": "45.131.4.41",
       "server_port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "tls": {
@@ -526,23 +575,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 37 - dange",
-      "server": "162.159.45.19",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 38 - dange",
-      "server": "162.159.48.32",
-      "server_port": 2052,
+      "server": "162.159.45.19",
+      "server_port": 2095,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -555,23 +590,30 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 39 - dange",
-      "server": "104.18.34.14",
-      "server_port": 2052,
+      "server": "172.64.32.103",
+      "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
+        "path": "/?ed=2560security=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 40 - dange",
-      "server": "84.17.41.2",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "server": "188.114.97.6",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
     },
     {
       "type": "vless",
@@ -599,57 +641,49 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 42 - dange",
-      "server": "162.159.43.187",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+      "server": "70.39.196.142",
+      "server_port": 443,
+      "uuid": "4856478b-95a8-4417-83e4-3fd51bc6238a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hdZ4qUCdNtIkIfhb1KPVxxDt4rsseFxaFH093kVfRkE",
+          "short_id": "7efbd378"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 43 - dange",
-      "server": "172.64.32.108",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+      "server": "15.204.97.216",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 44 - dange",
-      "server": "172.64.229.170",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 45 - dange",
-      "server": "67.220.72.237",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 46 - dange",
-      "server": "172.64.229.170",
+      "server": "104.18.34.14",
       "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -662,81 +696,31 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 47 - dange",
-      "server": "5.78.28.48",
+      "tag": "🇺🇸 美国 (United States) 45 - dange",
+      "server": "104.18.46.234",
       "server_port": 80,
-      "uuid": "2be98d5e-6eed-445d-aef4-9c776fdd03af",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "5.78.159.97",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u42o3SnK9nE0nEUNd1JREM03dsT7N_c-m2rECXFCCHg",
-          "short_id": "ed87fb8386bbbbe5"
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 46 - dange",
+      "server": "169.197.142.22",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 48 - dange",
+      "tag": "🇺🇸 美国 (United States) 47 - dange",
       "server": "172.64.229.170",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tlsfp=chrome",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 49 - dange",
-      "server": "172.64.42.85",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 50 - dange",
-      "server": "66.235.200.251",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 51 - dange",
-      "server": "108.162.198.178",
-      "server_port": 2082,
+      "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -748,7 +732,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 52 - dange",
+      "tag": "🇺🇸 美国 (United States) 48 - dange",
+      "server": "5.78.139.175",
+      "server_port": 80,
+      "uuid": "695fdf80-e4f8-400f-bb42-f9fdcb8e8267",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "5.78.139.175",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Si3nHb-uXwCpAXeH8H3WkhfSvRVk6Q5oL5ej04WPglI",
+          "short_id": "81c2dc2ca4e93afc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 49 - dange",
       "server": "162.159.24.131",
       "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
@@ -762,36 +767,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 53 - dange",
-      "server": "162.159.0.169",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 54 - dange",
-      "server": "172.64.229.170",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 55 - dange",
-      "server": "195.26.229.131",
+      "tag": "🇺🇸 美国 (United States) 50 - dange",
+      "server": "31.43.179.36",
       "server_port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "tls": {
@@ -809,9 +786,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 56 - dange",
-      "server": "172.64.53.55",
-      "server_port": 2086,
+      "tag": "🇺🇸 美国 (United States) 51 - dange",
+      "server": "104.18.34.14",
+      "server_port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -822,44 +799,69 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 57 - dange",
-      "server": "162.159.39.218",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 58 - dange",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "fbe3ec44-4c6e-49ff-9e1a-cc992a4e0bec",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 52 - dange",
+      "server": "163.192.14.135",
+      "server_port": 50160,
+      "password": "099830134df5ac3a04a4b21d39b8c395",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "whatsapp.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 53 - dange",
+      "server": "169.197.143.116",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 54 - dange",
+      "server": "172.67.218.38",
+      "server_port": 443,
+      "password": "Telegram_healer_config",
+      "tls": {
+        "enabled": true,
+        "server_name": "1v95v6tjywcytbahl7f7lx8b27g.l4495eycqmse9he0yvoemjfc4ibyf-4.workers.dev",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
-          "short_id": ""
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/dxyX388XOtyAjF3A?ed=2560",
+        "headers": {
+          "Host": "1v95v6tjywcytbahl7f7lx8b27g.l4495eycqmse9he0yvoemjfc4ibyf-4.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 59 - dange",
-      "server": "162.159.39.218",
+      "tag": "🇺🇸 美国 (United States) 55 - dange",
+      "server": "162.159.48.32",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 56 - dange",
+      "server": "162.159.48.32",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -872,35 +874,42 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 60 - dange",
-      "server": "66.235.200.242",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tag": "🇺🇸 美国 (United States) 57 - dange",
+      "server": "15.204.97.197",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false,
+        "server_name": "fuck.rkn",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         }
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 58 - dange",
+      "server": "173.244.56.9",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 61 - dange",
-      "server": "172.64.154.8",
-      "server_port": 8880,
+      "tag": "🇺🇸 美国 (United States) 59 - dange",
+      "server": "108.162.198.178",
+      "server_port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
+        "path": "/?ed=2560security=tls ",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
@@ -908,7 +917,65 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 60 - dange",
+      "server": "172.64.158.146",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 61 - dange",
+      "server": "34.94.125.227",
+      "server_port": 443,
+      "password": "M7v%w11Se*",
+      "tls": {
+        "enabled": true,
+        "server_name": "mxlo.wsone.icu",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 美国 (United States) 62 - dange",
+      "server": "172.64.52.6",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 63 - dange",
+      "server": "172.64.229.170",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 64 - dange",
       "server": "66.235.200.101",
       "server_port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
@@ -930,52 +997,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 63 - dange",
-      "server": "162.159.39.218",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 64 - dange",
-      "server": "172.64.42.85",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇺🇸 美国 (United States) 65 - dange",
-      "server": "172.64.42.85",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
+      "server": "67.220.72.237",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 66 - dange",
-      "server": "172.64.229.2",
-      "server_port": 2082,
+      "server": "104.18.34.14",
+      "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -988,332 +1021,6 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 67 - dange",
-      "server": "172.64.52.6",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 68 - dange",
-      "server": "172.64.229.2",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 69 - dange",
-      "server": "167.88.62.124",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 70 - dange",
-      "server": "104.18.47.113",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 71 - dange",
-      "server": "162.159.0.169",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tlssecurity=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 72 - dange",
-      "server": "66.235.200.218",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 73 - dange",
-      "server": "172.64.42.85",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 74 - dange",
-      "server": "82.198.246.37",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 75 - dange",
-      "server": "66.235.200.171",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 76 - dange",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 77 - dange",
-      "server": "162.159.48.32",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 78 - dange",
-      "server": "23.150.248.20",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qB2Cv9VIlujj"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 79 - dange",
-      "server": "172.64.53.55",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 80 - dange",
-      "server": "162.159.24.131",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 81 - dange",
-      "server": "169.197.142.22",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 82 - dange",
-      "server": "108.162.198.178",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 83 - dange",
-      "server": "129.146.77.248",
-      "server_port": 39495,
-      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/cctv13.m3u8"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 84 - dange",
-      "server": "162.159.43.187",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 85 - dange",
-      "server": "172.64.32.103",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 86 - dange",
-      "server": "162.159.24.131",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 87 - dange",
-      "server": "163.192.14.135",
-      "server_port": 50160,
-      "password": "099830134df5ac3a04a4b21d39b8c395",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 88 - dange",
-      "server": "15.204.97.195",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 89 - dange",
-      "server": "15.204.97.197",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 90 - dange",
       "server": "15.204.97.219",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1333,69 +1040,25 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 91 - dange",
-      "server": "108.162.198.178",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 68 - dange",
+      "server": "hy2.561891.xyz",
+      "server_port": 44356,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.561891.xyz",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 92 - dange",
-      "server": "172.64.158.146",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 93 - dange",
-      "server": "172.64.32.103",
+      "tag": "🇺🇸 美国 (United States) 69 - dange",
+      "server": "104.18.34.14",
       "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 94 - dange",
-      "server": "104.18.46.234",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 95 - dange",
-      "server": "162.159.0.169",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
         "path": "/?ed=2560security=tls ",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
@@ -1404,28 +1067,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 96 - dange",
-      "server": "45.131.6.205",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 97 - dange",
-      "server": "104.18.39.218",
-      "server_port": 2086,
+      "tag": "🇺🇸 美国 (United States) 70 - dange",
+      "server": "162.159.43.187",
+      "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -1437,8 +1081,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 98 - dange",
-      "server": "172.64.32.108",
+      "tag": "🇺🇸 美国 (United States) 71 - dange",
+      "server": "172.64.158.146",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -1451,159 +1095,24 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 99 - dange",
-      "server": "169.197.143.116",
+      "tag": "🇺🇸 美国 (United States) 72 - dange",
+      "server": "216.106.185.141",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 100 - dange",
-      "server": "172.64.154.8",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 101 - dange",
-      "server": "hy2.561891.xyz",
-      "server_port": 44356,
-      "password": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.561891.xyz",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 102 - dange",
-      "server": "70.39.196.142",
-      "server_port": 443,
-      "uuid": "4856478b-95a8-4417-83e4-3fd51bc6238a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hdZ4qUCdNtIkIfhb1KPVxxDt4rsseFxaFH093kVfRkE",
-          "short_id": "7efbd378"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 103 - dange",
-      "server": "104.18.46.234",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tlssecurity=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 104 - dange",
-      "server": "138.199.42.68",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 105 - dange",
-      "server": "216.106.183.35",
+      "tag": "🇺🇸 美国 (United States) 73 - dange",
+      "server": "167.17.68.89",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 106 - dange",
-      "server": "104.18.39.218",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 107 - dange",
-      "server": "37.19.198.243",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 108 - dange",
-      "server": "38.180.135.156",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YHtesZ0qvgtg"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 109 - dange",
-      "server": "172.64.229.2",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 110 - dange",
-      "server": "167.88.63.59",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 111 - dange",
-      "server": "172.64.154.8",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 112 - dange",
-      "server": "66.235.200.207",
+      "tag": "🇺🇸 美国 (United States) 74 - dange",
+      "server": "66.235.200.250",
       "server_port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "tls": {
@@ -1625,51 +1134,12 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 113 - dange",
-      "server": "162.159.48.32",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 114 - dange",
-      "server": "37.19.198.244",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 115 - dange",
-      "server": "34.94.125.227",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "mxlo.wsone.icu",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 116 - dange",
-      "server": "104.18.47.113",
+      "tag": "🇺🇸 美国 (United States) 75 - dange",
+      "server": "172.64.154.8",
       "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560security=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
@@ -1677,22 +1147,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 117 - dange",
+      "tag": "🇺🇸 美国 (United States) 76 - dange",
       "server": "162.159.0.169",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 118 - dange",
-      "server": "162.159.0.53",
       "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -1704,148 +1160,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 119 - dange",
-      "server": "172.64.229.2",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 120 - dange",
-      "server": "156.146.38.170",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 77 - dange",
+      "server": "167.88.62.124",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 121 - dange",
-      "server": "15.204.97.198",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 122 - dange",
-      "server": "31.43.179.36",
-      "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 123 - dange",
-      "server": "104.18.34.14",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 124 - dange",
-      "server": "172.64.229.170",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 125 - dange",
-      "server": "104.18.46.234",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 126 - dange",
-      "server": "107.151.182.197",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 127 - dange",
-      "server": "37.19.198.236",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 128 - dange",
-      "server": "129.146.124.141",
-      "server_port": 50356,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "zyjgAJte5t9OP35LYOD8CAf3QqvcSzcclM74XlByG4c="
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 129 - dange",
-      "server": "hy2.123266.xyz",
-      "server_port": 33333,
-      "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.123266.xyz",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 130 - dange",
+      "tag": "🇺🇸 美国 (United States) 78 - dange",
       "server": "172.235.43.210",
       "server_port": 53957,
       "uuid": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
@@ -1855,7 +1179,7 @@
         "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -1866,23 +1190,114 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 131 - dange",
-      "server": "198.98.53.130",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eDfN7SODQceIOmIAbtJJtK"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 132 - dange",
-      "server": "37.19.198.160",
+      "tag": "🇺🇸 美国 (United States) 79 - dange",
+      "server": "156.146.38.167",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 133 - dange",
+      "tag": "🇺🇸 美国 (United States) 80 - dange",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 81 - dange",
+      "server": "156.146.38.168",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 82 - dange",
+      "server": "5.78.28.48",
+      "server_port": 80,
+      "uuid": "2be98d5e-6eed-445d-aef4-9c776fdd03af",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "5.78.159.97",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u42o3SnK9nE0nEUNd1JREM03dsT7N_c-m2rECXFCCHg",
+          "short_id": "ed87fb8386bbbbe5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 83 - dange",
+      "server": "108.162.198.178",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 84 - dange",
+      "server": "141.101.121.196",
+      "server_port": 443,
+      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+      "tls": {
+        "enabled": true,
+        "server_name": "blackshadow.dpdns.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/44.209.52.7-443",
+        "headers": {
+          "Host": "blackshadow.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 85 - dange",
+      "server": "172.64.32.103",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 86 - dange",
+      "server": "216.106.183.35",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 1
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 87 - dange",
       "server": "172.64.52.6",
       "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
@@ -1896,7 +1311,123 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 134 - dange",
+      "tag": "🇺🇸 美国 (United States) 88 - dange",
+      "server": "172.64.229.170",
+      "server_port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 89 - dange",
+      "server": "84.17.41.2",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 90 - dange",
+      "server": "162.159.39.218",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 91 - dange",
+      "server": "104.18.46.46",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 92 - dange",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 93 - dange",
+      "server": "172.64.229.170",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 94 - dange",
+      "server": "8.35.211.236",
+      "server_port": 443,
+      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "tls": {
+        "enabled": true,
+        "server_name": "kkkk-bq7.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kkkk-bq7.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 95 - dange",
+      "server": "154.197.75.40",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "vms.lifetime37.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 96 - dange",
+      "server": "156.146.38.169",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 97 - dange",
       "server": "104.18.47.113",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
@@ -1910,16 +1441,299 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 135 - dange",
-      "server": "108.181.57.93",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "RSo52SbxW40r"
+      "tag": "🇺🇸 美国 (United States) 98 - dange",
+      "server": "37.19.198.244",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 99 - dange",
+      "server": "15.204.233.41",
+      "server_port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 136 - dange",
-      "server": "162.35.104.144",
+      "tag": "🇺🇸 美国 (United States) 100 - dange",
+      "server": "172.64.229.2",
+      "server_port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 101 - dange",
+      "server": "104.24.30.89",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "rayan-007.nastaran.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 102 - dange",
+      "server": "172.64.229.170",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 103 - dange",
+      "server": "hy2.123266.xyz",
+      "server_port": 33333,
+      "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.123266.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 104 - dange",
+      "server": "162.159.48.32",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 105 - dange",
+      "server": "162.159.0.53",
+      "server_port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 106 - dange",
+      "server": "15.204.246.107",
+      "server_port": 8888,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 107 - dange",
+      "server": "66.235.200.203",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 108 - dange",
+      "server": "104.18.46.46",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 109 - dange",
+      "server": "195.123.240.65",
+      "server_port": 443,
+      "uuid": "ce18d0eb-5c71-41f9-96e5-1632e22456e4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
+          "short_id": "19296c9f1bf9c7b1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 110 - dange",
+      "server": "162.159.0.53",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 111 - dange",
+      "server": "167.88.63.59",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 112 - dange",
+      "server": "195.26.229.222",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 113 - dange",
+      "server": "54.204.185.38",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 114 - dange",
+      "server": "162.159.0.169",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tlssecurity=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 115 - dange",
+      "server": "38.91.107.49",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 116 - dange",
+      "server": "108.59.244.158",
+      "server_port": 443,
+      "password": "f62f231b031f54cde7015c87a754ea8f",
+      "tls": {
+        "enabled": true,
+        "server_name": "vkvideo.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 117 - dange",
+      "server": "172.64.42.85",
+      "server_port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 118 - dange",
+      "server": "104.18.46.46",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 119 - dange",
+      "server": "23.150.248.20",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qB2Cv9VIlujj"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 120 - dange",
+      "server": "162.35.96.21",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
@@ -1928,36 +1742,99 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 137 - dange",
-      "server": "38.110.1.246",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 138 - dange",
-      "server": "38.91.107.49",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 139 - dange",
-      "server": "100.42.228.109",
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 121 - dange",
+      "server": "169.40.42.15",
       "server_port": 443,
-      "password": "BxceQaOe",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "t.me/ripaojiedian",
-        "insecure": true
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 140 - dange",
+      "tag": "🇺🇸 美国 (United States) 122 - dange",
+      "server": "169.40.42.225",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 123 - dange",
+      "server": "172.64.158.146",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 124 - dange",
+      "server": "169.40.42.179",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 125 - dange",
+      "server": "172.64.32.103",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 126 - dange",
       "server": "79.141.172.154",
       "server_port": 10453,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
@@ -1980,17 +1857,9 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 141 - dange",
-      "server": "54.227.186.25",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 142 - dange",
-      "server": "104.18.39.218",
+      "tag": "🇺🇸 美国 (United States) 127 - dange",
+      "server": "172.64.52.6",
       "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
@@ -2003,179 +1872,24 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 143 - dange",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 144 - dange",
-      "server": "89.125.43.121",
-      "server_port": 443,
-      "uuid": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "hyhhuh.mervi.icu",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8",
-          "short_id": "2997575f36da5a09"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 145 - dange",
-      "server": "18.234.148.112",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 146 - dange",
-      "server": "169.40.42.90",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 147 - dange",
-      "server": "162.35.96.18",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "tag": "🇺🇸 美国 (United States) 128 - dange",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 148 - dange",
-      "server": "162.35.96.15",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 149 - dange",
-      "server": "8.35.211.236",
-      "server_port": 443,
-      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
-      "tls": {
-        "enabled": true,
-        "server_name": "kkkk-bq7.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
+        "path": "/cctv13.m3u8",
         "headers": {
-          "Host": "kkkk-bq7.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 150 - dange",
-      "server": "108.59.244.158",
-      "server_port": 443,
-      "password": "f62f231b031f54cde7015c87a754ea8f",
-      "tls": {
-        "enabled": true,
-        "server_name": "vkvideo.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 151 - dange",
-      "server": "172.64.158.146",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 152 - dange",
-      "server": "107.173.254.27",
-      "server_port": 15311,
-      "uuid": "ad78d02b-873f-4cff-8d4a-673f53d6ce0f",
-      "security": "auto"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 153 - dange",
-      "server": "159.223.157.129",
-      "server_port": 8443,
-      "password": "suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g",
-      "tls": {
-        "enabled": true,
-        "server_name": "159.223.157.129",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 154 - dange",
-      "server": "169.40.42.229",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "Host": "129.146.77.248"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 155 - dange",
-      "server": "172.64.52.6",
-      "server_port": 2086,
+      "tag": "🇺🇸 美国 (United States) 129 - dange",
+      "server": "162.159.39.218",
+      "server_port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -2187,34 +1901,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 156 - dange",
-      "server": "104.18.46.46",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 157 - dange",
-      "server": "vpn-us-003.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 158 - dange",
-      "server": "169.40.42.74",
+      "tag": "🇺🇸 美国 (United States) 130 - dange",
+      "server": "169.40.42.173",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
@@ -2223,7 +1911,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -2234,8 +1922,42 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 159 - dange",
-      "server": "169.40.42.184",
+      "tag": "🇺🇸 美国 (United States) 131 - dange",
+      "server": "195.211.98.43",
+      "server_port": 443,
+      "uuid": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+          "short_id": "9c56fddf237e8eaf"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 132 - dange",
+      "server": "162.159.39.218",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 133 - dange",
+      "server": "169.40.42.202",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
@@ -2254,310 +1976,24 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 160 - dange",
-      "server": "89.125.244.241",
-      "server_port": 10090,
-      "method": "aes-256-gcm",
-      "password": "9cfaa78d51ac366f"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 161 - dange",
-      "server": "169.40.42.52",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 162 - dange",
-      "server": "169.40.42.133",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 163 - dange",
-      "server": "88.216.195.13",
-      "server_port": 443,
-      "uuid": "3c48b5f5-7766-4896-874e-b3ba1860e83a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "w-mebel.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4VzPARgETZ4lJIffknTNqmfkP567FqYV94A18Be8vxQ",
-          "short_id": "837f454e9c8a7e19"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 164 - dange",
-      "server": "169.40.42.225",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 165 - dange",
-      "server": "5.78.159.97",
-      "server_port": 443,
-      "uuid": "b88a54a0-501c-4acf-930b-305354452f4e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE",
-          "short_id": "884dffd8e62a5c48"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 166 - dange",
-      "server": "169.40.42.104",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 167 - dange",
-      "server": "169.40.42.212",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 168 - dange",
-      "server": "51.81.203.63",
-      "server_port": 443,
-      "uuid": "cb2dbb6a-a1ea-4023-9ace-6466cee57241",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0",
-          "short_id": "4477382ff6d3d41c"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 169 - dange",
-      "server": "216.152.152.187",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 170 - dange",
-      "server": "104.21.8.201",
-      "server_port": 2096,
-      "uuid": "550d6eb0-1775-44a4-a464-9176e3d74b50",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-us.skyvora.app",
-        "insecure": false
-      },
+      "tag": "🇺🇸 美国 (United States) 134 - dange",
+      "server": "162.159.24.131",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/0i027asku",
+        "path": "/?ed=2560security=tls ",
         "headers": {
-          "Host": "cdn-us.skyvora.app"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 171 - dange",
-      "server": "169.40.42.231",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 172 - dange",
-      "server": "169.40.42.163",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 173 - dange",
-      "server": "82.26.93.57",
-      "server_port": 8445,
-      "uuid": "c6f6ecc2-26af-4e2f-95a7-e7018819a716",
-      "tls": {
-        "enabled": true,
-        "server_name": "hetzner.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_UazRMiBq9RqMaVrHeLsvUuoBkGFo9Gm-A4ivuZ6ZS8",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "Google"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 174 - dange",
-      "server": "34.85.179.6",
-      "server_port": 443,
-      "uuid": "8ea1a178-2719-47b7-99d0-33d8dc361ba3",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI",
-          "short_id": "c08efcd72d7e8389"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 175 - dange",
-      "server": "162.35.96.21",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 176 - dange",
-      "server": "172.64.52.6",
-      "server_port": 2082,
+      "tag": "🇺🇸 美国 (United States) 135 - dange",
+      "server": "104.18.47.113",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -2568,121 +2004,197 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 177 - dange",
-      "server": "15.204.247.206",
-      "server_port": 4444,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 178 - dange",
-      "server": "169.40.42.168",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+      "tag": "🇺🇸 美国 (United States) 136 - dange",
+      "server": "172.64.42.85",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 179 - dange",
-      "server": "169.40.42.202",
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 137 - dange",
+      "server": "37.19.198.160",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 138 - dange",
+      "server": "172.64.153.88",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 139 - dange",
+      "server": "108.181.0.177",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G5p6ww4o67HB"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 140 - dange",
+      "server": "18.213.0.46",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 141 - dange",
+      "server": "15.204.97.214",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "fuck.rkn",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 180 - dange",
-      "server": "47.253.226.114",
+      "tag": "🇺🇸 美国 (United States) 142 - dange",
+      "server": "136.117.218.86",
       "server_port": 443,
-      "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-      "flow": "xtls-rprx-vision",
+      "uuid": "dffab367-7769-4c6c-86f2-66fc6bd03003",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-          "short_id": ""
+          "public_key": "LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM",
+          "short_id": "f1955f72763eb2fb"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 181 - dange",
-      "server": "156.229.161.107",
-      "server_port": 10001,
-      "uuid": "9c79aceb-4649-44ea-9698-b5e9ecf6d6da",
+      "tag": "🇺🇸 美国 (United States) 143 - dange",
+      "server": "172.64.32.103",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 144 - dange",
+      "server": "169.40.42.90",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.icloud.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4",
-          "short_id": "fb2c6678"
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 182 - dange",
-      "server": "162.35.104.143",
+      "type": "trojan",
+      "tag": "🇺🇸 美国 (United States) 145 - dange",
+      "server": "172.67.170.113",
       "server_port": 443,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "flow": "xtls-rprx-vision",
+      "password": "c0c17d1da2c2c9299d5094c8",
       "tls": {
         "enabled": true,
-        "server_name": "sheetpeek.com",
+        "server_name": "ez-3e9698.ezaccess1ec1f0c.workers.dev",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
-          "short_id": "84be686ea1d16478"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiMDdteWJvazY4azJ3MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "ez-3e9698.ezaccess1ec1f0c.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 183 - dange",
+      "tag": "🇺🇸 美国 (United States) 146 - dange",
+      "server": "162.35.96.22",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 147 - dange",
+      "server": "172.111.38.100",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 148 - dange",
+      "server": "15.204.246.132",
+      "server_port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 149 - dange",
       "server": "198.251.78.29",
       "server_port": 2053,
       "uuid": "c423cc1b-f88e-421c-9a16-c480d84da20f",
@@ -2702,7 +2214,450 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 184 - dange",
+      "tag": "🇺🇸 美国 (United States) 150 - dange",
+      "server": "104.18.39.218",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 151 - dange",
+      "server": "104.18.39.218",
+      "server_port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tlssecurity=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 152 - dange",
+      "server": "162.159.43.187",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 153 - dange",
+      "server": "169.40.42.224",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 154 - dange",
+      "server": "107.151.182.197",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 155 - dange",
+      "server": "169.40.42.168",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 156 - dange",
+      "server": "172.64.229.170",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 157 - dange",
+      "server": "104.24.31.89",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "rayan-007.nastaran.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 158 - dange",
+      "server": "159.223.157.129",
+      "server_port": 8443,
+      "password": "suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g",
+      "tls": {
+        "enabled": true,
+        "server_name": "159.223.157.129",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 159 - dange",
+      "server": "34.85.179.6",
+      "server_port": 443,
+      "uuid": "8ea1a178-2719-47b7-99d0-33d8dc361ba3",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI",
+          "short_id": "c08efcd72d7e8389"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 160 - dange",
+      "server": "104.21.70.21",
+      "server_port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 161 - dange",
+      "server": "172.64.229.2",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 162 - dange",
+      "server": "169.40.42.16",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 163 - dange",
+      "server": "23.191.200.206",
+      "server_port": 443,
+      "uuid": "d32b9753-8910-4bd6-8761-5bbd1bc1bb3e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 164 - dange",
+      "server": "5.78.28.48",
+      "server_port": 443,
+      "uuid": "b88a54a0-501c-4acf-930b-305354452f4e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE",
+          "short_id": "884dffd8e62a5c48"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 165 - dange",
+      "server": "172.64.229.170",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 166 - dange",
+      "server": "169.40.42.232",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 167 - dange",
+      "server": "169.40.42.235",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 168 - dange",
+      "server": "47.253.226.114",
+      "server_port": 443,
+      "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 169 - dange",
+      "server": "vpn-us-003.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-us-003.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 170 - dange",
+      "server": "15.204.247.244",
+      "server_port": 4444,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 171 - dange",
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 172 - dange",
+      "server": "34.19.91.203",
+      "server_port": 443,
+      "uuid": "9d0395c0-016f-453e-b0be-fc66f1ee1d80",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE",
+          "short_id": "bd4aa541e5306ba2"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 173 - dange",
+      "server": "89.125.244.241",
+      "server_port": 10090,
+      "method": "aes-256-gcm",
+      "password": "9cfaa78d51ac366f"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 174 - dange",
+      "server": "amer.lavivas.org",
+      "server_port": 7443,
+      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
+      "tls": {
+        "enabled": true,
+        "server_name": "amer.lavivas.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 175 - dange",
+      "server": "67.220.85.46",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 176 - dange",
+      "server": "38.110.1.246",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 177 - dange",
+      "server": "172.64.32.108",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls ",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 178 - dange",
+      "server": "us4.xiaoliyu.cyou",
+      "server_port": 4433,
+      "password": "6a3fe9d0-0d68-4f29-ae99-5771d4217a45",
+      "tls": {
+        "enabled": true,
+        "server_name": "us4.xiaoliyu.cyou",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 179 - dange",
       "server": "104.18.46.46",
       "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
@@ -2715,8 +2670,94 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 180 - dange",
+      "server": "137.184.218.169",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 181 - dange",
+      "server": "169.40.42.133",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 182 - dange",
+      "server": "169.40.42.104",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 183 - dange",
+      "server": "104.21.12.21",
+      "server_port": 443,
+      "uuid": "73796e63-0000-4000-8000-000000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "nahan-core.fatitelegram.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "nahan-core.fatitelegram.workers.dev"
+        }
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 185 - dange",
+      "tag": "🇺🇸 美国 (United States) 184 - dange",
       "server": "guanwang.awsno.com",
       "server_port": 443,
       "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
@@ -2736,294 +2777,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 186 - dange",
-      "server": "169.40.42.223",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 187 - dange",
-      "server": "195.211.98.43",
-      "server_port": 443,
-      "uuid": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-          "short_id": "9c56fddf237e8eaf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 188 - dange",
-      "server": "169.40.42.232",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 189 - dange",
-      "server": "82.198.246.250",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 190 - dange",
-      "server": "2.27.17.229",
-      "server_port": 46341,
-      "uuid": "cfe85028-dde5-4a3d-890e-f43696a2b5f3",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony-europe.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AzPeaqr_BqAdCSN2X9stYwa2iPr5hXvmAcKXpDMK8T4",
-          "short_id": "2b819e"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc_common2"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 191 - dange",
-      "server": "vspeedfast.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "vspeedfast.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "vspeedfast.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 192 - dange",
-      "server": "ww9.levikogjgfdd.ir",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 193 - dange",
-      "server": "152.53.80.195",
-      "server_port": 443,
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "abr2.freeguard.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 194 - dange",
-      "server": "31.77.8.97",
-      "server_port": 110,
-      "uuid": "e8758bf0-c234-4809-89f7-25fd868316d0",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 195 - dange",
-      "server": "169.40.42.35",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 196 - dange",
-      "server": "cdn.snobvpn.online",
-      "server_port": 80,
-      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
-      "transport": {
-        "type": "ws",
-        "path": "/snob-ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 197 - dange",
-      "server": "136.148.71.152",
-      "server_port": 7444,
-      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de777.lavivas.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 198 - dange",
-      "server": "minimize-evenness.cdn-content.com",
-      "server_port": 443,
-      "uuid": "4f46eb95-a57f-457f-895f-f50e6ad9f164",
-      "tls": {
-        "enabled": true,
-        "server_name": "minimize-evenness.cdn-content.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "minimize-evenness.cdn-content.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 199 - dange",
-      "server": "89.125.147.199",
-      "server_port": 443,
-      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-          "short_id": "f6c7c139b9c938db"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 200 - dange",
-      "server": "amer.lavivas.org",
-      "server_port": 7443,
-      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
-      "tls": {
-        "enabled": true,
-        "server_name": "amer.lavivas.org",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 201 - dange",
-      "server": "31.76.5.124",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "norway-2.failspace.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 202 - dange",
+      "tag": "🇺🇸 美国 (United States) 185 - dange",
       "server": "167.17.69.171",
       "server_port": 443,
       "uuid": "00144519-7e0d-476b-8d28-435576af9262",
@@ -3044,7 +2798,250 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 203 - dange",
+      "tag": "🇺🇸 美国 (United States) 186 - dange",
+      "server": "169.40.42.89",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 187 - dange",
+      "server": "169.40.42.223",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 188 - dange",
+      "server": "vspeedfast.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "vspeedfast.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 189 - dange",
+      "server": "205.172.56.151",
+      "server_port": 5432,
+      "uuid": "cc01f435-d561-4525-bf1f-7a9876d33207",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "205.172.56.151",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 190 - dange",
+      "server": "82.198.246.233",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 191 - dange",
+      "server": "169.40.42.182",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 192 - dange",
+      "server": "khasav.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "khasav.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 193 - dange",
+      "server": "64.188.98.171",
+      "server_port": 443,
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.h2corp.local",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 194 - dange",
+      "server": "2.27.17.229",
+      "server_port": 46341,
+      "uuid": "cfe85028-dde5-4a3d-890e-f43696a2b5f3",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony-europe.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AzPeaqr_BqAdCSN2X9stYwa2iPr5hXvmAcKXpDMK8T4",
+          "short_id": "2b819e"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc_common2"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 195 - dange",
+      "server": "89.125.147.199",
+      "server_port": 443,
+      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "maps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
+          "short_id": "f6c7c139b9c938db"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 196 - dange",
+      "server": "31.76.5.124",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "norway-2.failspace.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 197 - dange",
+      "server": "144.31.103.195",
+      "server_port": 8443,
+      "uuid": "61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl1.hys.braidx.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 198 - dange",
+      "server": "91.196.32.163",
+      "server_port": 443,
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.196.32.163",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 199 - dange",
+      "server": "172.67.151.77",
+      "server_port": 443,
+      "uuid": "73796e63-0000-4000-8000-000000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "nahan-core.fatitelegram.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "nahan-core.fatitelegram.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 200 - dange",
       "server": "31.76.5.137",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -3061,100 +3058,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 204 - dange",
-      "server": "amer.lavivas.org",
-      "server_port": 2096,
-      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amer.lavivas.org",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 205 - dange",
-      "server": "31.76.97.115",
-      "server_port": 40604,
-      "uuid": "fc56af7f-1221-4c27-aed4-3de8a18dc03b",
-      "tls": {
-        "enabled": true,
-        "server_name": "docs.api.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bWqXHcSbmER97qUKWDujzotuMF7GtNMR0LScSudgbG4",
-          "short_id": "e028f6e8"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc_common1"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 206 - dange",
-      "server": "82.198.246.233",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 207 - dange",
-      "server": "85.209.157.184",
-      "server_port": 8388,
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "EIIwJPg8YqgnjLLd58zoTg==:21BUzSjKTJPkPdIhxHlXdg=="
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 208 - dange",
-      "server": "91.193.17.156",
-      "server_port": 9460,
-      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "TunService"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 209 - dange",
-      "server": "de.1.23.h2corp.org",
-      "server_port": 443,
-      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany3.h2corp.local",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 210 - dange",
+      "tag": "🇺🇸 美国 (United States) 201 - dange",
       "server": "176.108.246.110",
       "server_port": 9830,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
@@ -3178,30 +3082,73 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 211 - dange",
-      "server": "172.67.198.209",
-      "server_port": 443,
-      "uuid": "2240d8f8-898f-4988-8c08-ac724aa06ddb",
+      "tag": "🇺🇸 美国 (United States) 202 - dange",
+      "server": "186.246.19.79",
+      "server_port": 40443,
+      "uuid": "5e3f974b-06fc-4555-907a-6681391b7c17",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "2-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr",
-        "insecure": false,
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE",
+          "short_id": "2bc0"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 203 - dange",
+      "server": "85.209.157.184",
+      "server_port": 8388,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "EIIwJPg8YqgnjLLd58zoTg==:21BUzSjKTJPkPdIhxHlXdg=="
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 204 - dange",
+      "server": "167.104.223.216",
+      "server_port": 7443,
+      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
+      "tls": {
+        "enabled": true,
+        "server_name": "greatbritain.lavivas.org",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/BzuntJ8qZN0TRKbC8TveMxJ0",
-        "headers": {
-          "Host": "2-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr"
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 205 - dange",
+      "server": "169.40.42.229",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 212 - dange",
+      "tag": "🇺🇸 美国 (United States) 206 - dange",
       "server": "104.21.8.201",
       "server_port": 2096,
       "uuid": "214bf4c5-045a-4ddb-944b-e2eef9b33338",
@@ -3223,73 +3170,56 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 213 - dange",
-      "server": "67.220.95.3",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 (United States) 207 - dange",
+      "server": "15.204.247.206",
+      "server_port": 4444,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 214 - dange",
-      "server": "91.196.32.163",
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 208 - dange",
+      "server": "179.254.111.0",
       "server_port": 443,
-      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
+      "uuid": "94006a20-6cd6-4751-a14d-c5a0bacb68bb",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germany3.h2corp.local",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 215 - dange",
-      "server": "us4.xiaoliyu.cyou",
-      "server_port": 4433,
-      "password": "6a3fe9d0-0d68-4f29-ae99-5771d4217a45",
-      "tls": {
-        "enabled": true,
-        "server_name": "us4.xiaoliyu.cyou",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 216 - dange",
-      "server": "starlink-ft.251313.xyz",
-      "server_port": 443,
-      "password": "https://xship.2fa.cat",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg",
+          "short_id": "992e5a9a"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 217 - dange",
-      "server": "186.246.19.79",
-      "server_port": 40443,
-      "uuid": "5e3f974b-06fc-4555-907a-6681391b7c17",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 美国 (United States) 209 - dange",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE",
-          "short_id": "2bc0"
+        "server_name": "a.cwvps.eu.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "a.cwvps.eu.org"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 218 - dange",
+      "tag": "🇺🇸 美国 (United States) 210 - dange",
       "server": "es1.xiaoliyu.cyou",
       "server_port": 4433,
       "password": "19f72087-4591-4d72-930b-2697078ec2be",
@@ -3300,79 +3230,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 219 - dange",
-      "server": "jumpernode.online",
-      "server_port": 443,
-      "uuid": "ce7beb9a-5dc1-47b3-b3ff-94521430c446",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yp.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE",
-          "short_id": "5ea30fc4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 220 - dange",
-      "server": "150.241.101.17",
-      "server_port": 8443,
-      "uuid": "47d9b534-8a0a-4bd2-90f1-1d6ade14427e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 221 - dange",
-      "server": "23.191.200.206",
-      "server_port": 443,
-      "uuid": "d32b9753-8910-4bd6-8761-5bbd1bc1bb3e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 222 - dange",
-      "server": "15.204.246.132",
-      "server_port": 7307,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 223 - dange",
+      "tag": "🇺🇸 美国 (United States) 211 - dange",
       "server": "2.27.249.79",
       "server_port": 443,
       "password": "cd74c0a406664a5bc0bac098220a2468",
@@ -3388,114 +3247,27 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 224 - dange",
-      "server": "khasav.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tag": "🇺🇸 美国 (United States) 212 - dange",
+      "server": "104.21.57.84",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "khasav.org",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/linkvws",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "khasav.org"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 225 - dange",
-      "server": "77.91.68.70",
-      "server_port": 55983,
-      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-          "short_id": "0e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 226 - dange",
-      "server": "144.31.103.195",
-      "server_port": 8443,
-      "uuid": "61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl1.hys.braidx.tech",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 227 - dange",
-      "server": "67.220.85.46",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 228 - dange",
-      "server": "169.40.42.182",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 229 - dange",
-      "server": "195.123.240.65",
-      "server_port": 443,
-      "uuid": "ce18d0eb-5c71-41f9-96e5-1632e22456e4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
-          "short_id": "19296c9f1bf9c7b1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 230 - dange",
+      "tag": "🇺🇸 美国 (United States) 213 - dange",
       "server": "176.108.246.73",
       "server_port": 9873,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
@@ -3518,32 +3290,51 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 (United States) 231 - dange",
-      "server": "104.21.57.84",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 214 - dange",
+      "server": "172.67.151.109",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-635698a6bb9c",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "jdzit4e4urks.xwzohsebujps.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/stream/PANEL_ZEUS/635698a6bb9c/loc-0",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "jdzit4e4urks.xwzohsebujps.workers.dev"
         }
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 (United States) 215 - dange",
+      "server": "67.220.95.3",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 216 - dange",
+      "server": "starlink-ft.251313.xyz",
+      "server_port": 443,
+      "password": "https://xship.2fa.cat",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇺🇸 美国 (United States) 232 - dange",
-      "server": "15.204.246.107",
-      "server_port": 8888,
+      "tag": "🇺🇸 美国 (United States) 217 - dange",
+      "server": "15.204.247.124",
+      "server_port": 2375,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "faBAoD54k87UJG7"
     },
     {
       "type": "selector",
@@ -3766,22 +3557,7 @@
         "🇺🇸 美国 (United States) 214 - dange",
         "🇺🇸 美国 (United States) 215 - dange",
         "🇺🇸 美国 (United States) 216 - dange",
-        "🇺🇸 美国 (United States) 217 - dange",
-        "🇺🇸 美国 (United States) 218 - dange",
-        "🇺🇸 美国 (United States) 219 - dange",
-        "🇺🇸 美国 (United States) 220 - dange",
-        "🇺🇸 美国 (United States) 221 - dange",
-        "🇺🇸 美国 (United States) 222 - dange",
-        "🇺🇸 美国 (United States) 223 - dange",
-        "🇺🇸 美国 (United States) 224 - dange",
-        "🇺🇸 美国 (United States) 225 - dange",
-        "🇺🇸 美国 (United States) 226 - dange",
-        "🇺🇸 美国 (United States) 227 - dange",
-        "🇺🇸 美国 (United States) 228 - dange",
-        "🇺🇸 美国 (United States) 229 - dange",
-        "🇺🇸 美国 (United States) 230 - dange",
-        "🇺🇸 美国 (United States) 231 - dange",
-        "🇺🇸 美国 (United States) 232 - dange"
+        "🇺🇸 美国 (United States) 217 - dange"
       ]
     },
     {
@@ -4004,22 +3780,7 @@
         "🇺🇸 美国 (United States) 214 - dange",
         "🇺🇸 美国 (United States) 215 - dange",
         "🇺🇸 美国 (United States) 216 - dange",
-        "🇺🇸 美国 (United States) 217 - dange",
-        "🇺🇸 美国 (United States) 218 - dange",
-        "🇺🇸 美国 (United States) 219 - dange",
-        "🇺🇸 美国 (United States) 220 - dange",
-        "🇺🇸 美国 (United States) 221 - dange",
-        "🇺🇸 美国 (United States) 222 - dange",
-        "🇺🇸 美国 (United States) 223 - dange",
-        "🇺🇸 美国 (United States) 224 - dange",
-        "🇺🇸 美国 (United States) 225 - dange",
-        "🇺🇸 美国 (United States) 226 - dange",
-        "🇺🇸 美国 (United States) 227 - dange",
-        "🇺🇸 美国 (United States) 228 - dange",
-        "🇺🇸 美国 (United States) 229 - dange",
-        "🇺🇸 美国 (United States) 230 - dange",
-        "🇺🇸 美国 (United States) 231 - dange",
-        "🇺🇸 美国 (United States) 232 - dange"
+        "🇺🇸 美国 (United States) 217 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
