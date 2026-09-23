@@ -5,17 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dange
-  server: 94.228.171.159
-  port: 8443
+  server: 104.18.46.234
+  port: 8080
   udp: true
   type: vless
-  uuid: 5b754a1a-11aa-4df9-a8ba-44af9a579fe1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: hcjZwWlIplwEKT-Ea-vTM2n4jwiTCeL9wTUZG0WgCj0
-  servername: de.b2ai.top
-  client-fingerprint: chrome
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: '/?ed=2560security=tls '
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - dange
   server: 91.240.86.70
   port: 22443
@@ -25,17 +24,19 @@ proxies:
   sni: hy.quattro-tech.ru
   skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 (Russia) 03 - dange
-  server: 45.12.75.242
-  port: 26424
+  server: 176.123.161.222
+  port: 9892
   udp: true
   type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   tls: true
   reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  servername: dl.google.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 proxy-groups:
 - name: PROXIES
   type: select
