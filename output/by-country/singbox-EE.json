@@ -50,13 +50,26 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - dange",
+      "server": "217.60.182.79",
+      "server_port": 443,
+      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
+      "tls": {
+        "enabled": true,
+        "server_name": "cabinet.wwwinternetvideo.click",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇪🇪 爱沙尼亚 (Estonia) 01 - dange",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - dange"
       ]
     },
     {
@@ -65,7 +78,8 @@
       "outbounds": [
         "🇪🇪 爱沙尼亚 (Estonia) 01 - dange",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - dange",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - dange",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
