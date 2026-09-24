@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 01 - dange",
-      "server": "185.164.175.81",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 02 - dange",
       "server": "57.131.48.45",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -21,7 +13,35 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇹 意大利 (Italy) 02 - dange",
+      "server": "204.216.216.23",
+      "server_port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923"
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇹 意大利 (Italy) 03 - dange",
+      "server": "31.76.113.212",
+      "server_port": 443,
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "italia.superbuba.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw",
+          "short_id": "4fa44664f6a566d3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 意大利 (Italy) 04 - dange",
       "server": "57.131.38.163",
       "server_port": 2053,
       "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
@@ -30,7 +50,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -41,52 +61,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 04 - dange",
-      "server": "31.76.113.231",
-      "server_port": 443,
-      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "italia.superbuba.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw",
-          "short_id": "4fa44664f6a566d3"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇹 意大利 (Italy) 05 - dange",
-      "server": "31.77.201.33",
-      "server_port": 443,
-      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-      "flow": "xtls-rprx-vision",
+      "server": "57.131.21.102",
+      "server_port": 8443,
+      "uuid": "69ac162b-1643-4acb-9f49-09d8b0fad609",
       "tls": {
         "enabled": true,
-        "server_name": "italia.superbuba.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw",
-          "short_id": "4fa44664f6a566d3"
+        "server_name": "milan.adaspoloandco.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/RoBeRt",
+        "headers": {
+          "Host": "milan.adaspoloandco.com"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 06 - dange",
-      "server": "204.216.216.23",
-      "server_port": 10086,
-      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923"
     },
     {
       "type": "selector",
@@ -97,8 +87,7 @@
         "🇮🇹 意大利 (Italy) 02 - dange",
         "🇮🇹 意大利 (Italy) 03 - dange",
         "🇮🇹 意大利 (Italy) 04 - dange",
-        "🇮🇹 意大利 (Italy) 05 - dange",
-        "🇮🇹 意大利 (Italy) 06 - dange"
+        "🇮🇹 意大利 (Italy) 05 - dange"
       ]
     },
     {
@@ -109,8 +98,7 @@
         "🇮🇹 意大利 (Italy) 02 - dange",
         "🇮🇹 意大利 (Italy) 03 - dange",
         "🇮🇹 意大利 (Italy) 04 - dange",
-        "🇮🇹 意大利 (Italy) 05 - dange",
-        "🇮🇹 意大利 (Italy) 06 - dange"
+        "🇮🇹 意大利 (Italy) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
