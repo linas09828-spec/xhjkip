@@ -5,35 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - dange
-  server: 104.21.16.123
+  server: 54.36.174.134
   port: 443
   udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: 7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mrs2e9a
 - name: 🇫🇷 法国 (France) 02 - dange
-  server: 35.181.77.1
-  port: 22224
+  server: 152.228.139.33
+  port: 35108
   udp: true
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 (France) 03 - dange
-  server: 45.95.96.236
-  port: 443
-  udp: true
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  flow: xtls-rprx-vision
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
   tls: true
   reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  servername: gesmankos.sadiepinki.com
-  client-fingerprint: firefox
+    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+    short-id: 52add08b86a5ccea
+  servername: www.nvidia.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-common3
+- name: 🇫🇷 法国 (France) 03 - dange
+  server: 151.247.197.253
+  port: 36723
+  udp: true
+  type: hysteria2
+  password: Krab9Hyst2_Rk7pQ2xL
+  sni: 151.247.197.253
+  skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 04 - dange
   server: 35.181.166.40
   port: 443
@@ -43,24 +43,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 05 - dange
-  server: 51.255.13.232
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-- name: 🇫🇷 法国 (France) 06 - dange
-  server: 104.18.9.83
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 07 - dange
   server: 62.210.91.10
   port: 23576
   udp: true
@@ -72,28 +54,34 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
   servername: fuck.rkn
   client-fingerprint: random
+- name: 🇫🇷 法国 (France) 06 - dange
+  server: 51.255.13.232
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+- name: 🇫🇷 法国 (France) 07 - dange
+  server: 141.227.134.63
+  port: 17000
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
 - name: 🇫🇷 法国 (France) 08 - dange
-  server: 35.181.77.1
-  port: 22222
+  server: 62.210.91.2
+  port: 23576
   udp: true
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 (France) 09 - dange
-  server: 152.228.139.33
-  port: 35108
-  udp: true
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 10 - dange
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 09 - dange
   server: 152.228.139.33
   port: 51671
   udp: true
@@ -108,41 +96,48 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc_common3
-- name: 🇫🇷 法国 (France) 11 - dange
-  server: 34.155.10.226
+- name: 🇫🇷 法国 (France) 10 - dange
+  server: 54.36.174.140
   port: 443
   udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mrs2e9a
+- name: 🇫🇷 法国 (France) 11 - dange
+  server: 51.77.217.70
+  port: 2053
+  udp: true
   type: vless
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   tls: true
   reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-    short-id: ae682368818bd6c5
-  servername: www.cloudflare.com
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+    short-id: bfe58beb41f1d09f
+  servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 12 - dange
-  server: 13.36.152.170
-  port: 22224
-  udp: true
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 (France) 13 - dange
-  server: 173.212.201.85
+  server: 104.18.9.83
   port: 443
   udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 173.212.201.85
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 14 - dange
-  server: 62.210.7.139
-  port: 60111
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 13 - dange
+  server: 185.114.72.31
+  port: 2053
   udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 15 - dange
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 14 - dange
   server: 54.37.136.194
   port: 2053
   udp: true
@@ -154,93 +149,16 @@ proxies:
     short-id: 50ba05992b05c1c3
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 16 - dange
-  server: 62.210.91.2
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-  servername: fuck.rkn
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 17 - dange
-  server: 35.181.77.1
-  port: 22223
-  udp: true
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 (France) 18 - dange
-  server: 104.21.40.72
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-6f3c5a20fcd8
-  tls: true
-  servername: qkzh44eaul4s.n2za73e1u2xs.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/6f3c5a20fcd8
-    headers:
-      Host: qkzh44eaul4s.n2za73e1u2xs.workers.dev
-- name: 🇫🇷 法国 (France) 19 - dange
-  server: 185.220.100.168
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 20 - dange
-  server: 62.210.147.2
-  port: 43115
+- name: 🇫🇷 法国 (France) 15 - dange
+  server: 62.210.7.139
+  port: 60111
   udp: true
   type: hysteria2
   password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.microsoft.com
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 21 - dange
-  server: 45.80.215.8
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-- name: 🇫🇷 法国 (France) 22 - dange
-  server: 172.67.193.182
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
-  tls: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
-    headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
-- name: 🇫🇷 法国 (France) 23 - dange
-  server: 130.49.218.208
-  port: 5432
-  udp: true
-  type: vless
-  uuid: cc01f435-d561-4525-bf1f-7a9876d33207
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 130.49.218.208
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 24 - dange
-  server: 35.157.240.237
+- name: 🇫🇷 法国 (France) 16 - dange
+  server: 149.202.58.99
   port: 443
   udp: true
   type: vless
@@ -252,8 +170,20 @@ proxies:
   network: ws
   ws-opts:
     path: /vws/
+- name: 🇫🇷 法国 (France) 17 - dange
+  server: 57.131.21.102
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 69ac162b-1643-4acb-9f49-09d8b0fad609
+  tls: true
+  servername: milan.adaspoloandco.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /RoBeRt
     headers:
-      Host: bab-6.site
+      Host: milan.adaspoloandco.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -276,13 +206,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 15 - dange
   - 🇫🇷 法国 (France) 16 - dange
   - 🇫🇷 法国 (France) 17 - dange
-  - 🇫🇷 法国 (France) 18 - dange
-  - 🇫🇷 法国 (France) 19 - dange
-  - 🇫🇷 法国 (France) 20 - dange
-  - 🇫🇷 法国 (France) 21 - dange
-  - 🇫🇷 法国 (France) 22 - dange
-  - 🇫🇷 法国 (France) 23 - dange
-  - 🇫🇷 法国 (France) 24 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -305,12 +228,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 15 - dange
   - 🇫🇷 法国 (France) 16 - dange
   - 🇫🇷 法国 (France) 17 - dange
-  - 🇫🇷 法国 (France) 18 - dange
-  - 🇫🇷 法国 (France) 19 - dange
-  - 🇫🇷 法国 (France) 20 - dange
-  - 🇫🇷 法国 (France) 21 - dange
-  - 🇫🇷 法国 (France) 22 - dange
-  - 🇫🇷 法国 (France) 23 - dange
-  - 🇫🇷 法国 (France) 24 - dange
 rules:
 - MATCH,PROXIES

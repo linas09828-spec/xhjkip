@@ -5,36 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - dange
-  server: 66.90.104.42
-  port: 2083
-  udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇬🇧 英国 (United Kingdom) 02 - dange
-  server: 158.173.221.214
-  port: 11001
+  server: 143.110.161.156
+  port: 17000
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c58d16e593d44f42
-- name: 🇬🇧 英国 (United Kingdom) 03 - dange
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+- name: 🇬🇧 英国 (United Kingdom) 02 - dange
   server: 51.77.225.200
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: zRZNBszYyWo5
-- name: 🇬🇧 英国 (United Kingdom) 04 - dange
-  server: 51.38.71.51
-  port: 2083
+- name: 🇬🇧 英国 (United Kingdom) 03 - dange
+  server: 146.70.61.37
+  port: 8080
   udp: true
   type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
-- name: 🇬🇧 英国 (United Kingdom) 05 - dange
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 04 - dange
   server: 66.163.117.58
   port: 22324
   udp: true
@@ -42,6 +33,19 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
+- name: 🇬🇧 英国 (United Kingdom) 05 - dange
+  server: 23.81.34.204
+  port: 443
+  udp: true
+  type: vless
+  uuid: 99955907-9070-46f0-a200-9c7a0b9d74fe
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: J_p_dxR8dIKaezk1_Ins5MZ7e4dqgrr2n9690vVuQ2s
+    short-id: b19b017d6f453873
+  servername: speed.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇬🇧 英国 (United Kingdom) 06 - dange
   server: 35.234.143.34
   port: 443
@@ -55,69 +59,29 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: ''
 - name: 🇬🇧 英国 (United Kingdom) 07 - dange
-  server: 149.102.132.184
-  port: 80
+  server: 141.98.101.181
+  port: 443
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 08 - dange
-  server: 57.129.130.63
-  port: 52014
+  server: 66.90.104.42
+  port: 2083
   udp: true
   type: vless
-  uuid: d731cf09-79a6-4647-aabe-8e0fda4fe3be
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 - name: 🇬🇧 英国 (United Kingdom) 09 - dange
-  server: 146.70.61.37
-  port: 8080
+  server: 158.173.221.214
+  port: 11001
   udp: true
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
 - name: 🇬🇧 英国 (United Kingdom) 10 - dange
-  server: 149.102.149.207
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-- name: 🇬🇧 英国 (United Kingdom) 11 - dange
-  server: 149.102.132.184
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 12 - dange
-  server: 149.102.149.207
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-- name: 🇬🇧 英国 (United Kingdom) 13 - dange
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 14 - dange
   server: 194.150.166.230
   port: 9443
   udp: true
@@ -130,40 +94,20 @@ proxies:
     short-id: ad20d2ba
   servername: storage.yandexcloud.net
   client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 15 - dange
-  server: 194.150.166.228
-  port: 9443
+- name: 🇬🇧 英国 (United Kingdom) 11 - dange
+  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  port: 443
   udp: true
   type: vless
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: ad20d2ba
-  servername: storage.yandexcloud.net
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: 2e124af254a65e7c
+  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
   client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 16 - dange
-  server: 46.250.250.149
-  port: 2053
-  udp: true
-  type: vless
-  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
-  tls: true
-  reality-opts:
-    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
-    short-id: 9922313fffed1c63
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 17 - dange
-  server: de.i-love-russia.online
-  port: 443
-  udp: true
-  type: hysteria2
-  password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
-  sni: de.i-love-russia.online
-  skip-cert-verify: false
-- name: 🇬🇧 英国 (United Kingdom) 18 - dange
+- name: 🇬🇧 英国 (United Kingdom) 12 - dange
   server: 31.76.88.10
   port: 443
   udp: true
@@ -178,7 +122,7 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf5.rumedia-cdn.com
-- name: 🇬🇧 英国 (United Kingdom) 19 - dange
+- name: 🇬🇧 英国 (United Kingdom) 13 - dange
   server: 193.163.203.170
   port: 443
   udp: true
@@ -191,19 +135,20 @@ proxies:
     short-id: b28db60d77c50b4f
   servername: yandex.ru
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 20 - dange
-  server: 2.27.205.59
-  port: 443
+- name: 🇬🇧 英国 (United Kingdom) 14 - dange
+  server: 46.250.250.149
+  port: 2053
   udp: true
   type: vless
-  uuid: c21631d5-36c9-4664-b575-97eca17456be
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: neth8.lunariai.ru
-- name: 🇬🇧 英国 (United Kingdom) 21 - dange
-  server: 194.150.166.108
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  tls: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+    short-id: 9922313fffed1c63
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 15 - dange
+  server: 194.150.166.228
   port: 9443
   udp: true
   type: vless
@@ -215,6 +160,19 @@ proxies:
     short-id: ad20d2ba
   servername: storage.yandexcloud.net
   client-fingerprint: safari
+- name: 🇬🇧 英国 (United Kingdom) 16 - dange
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -236,11 +194,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - dange
   - 🇬🇧 英国 (United Kingdom) 15 - dange
   - 🇬🇧 英国 (United Kingdom) 16 - dange
-  - 🇬🇧 英国 (United Kingdom) 17 - dange
-  - 🇬🇧 英国 (United Kingdom) 18 - dange
-  - 🇬🇧 英国 (United Kingdom) 19 - dange
-  - 🇬🇧 英国 (United Kingdom) 20 - dange
-  - 🇬🇧 英国 (United Kingdom) 21 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -262,10 +215,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - dange
   - 🇬🇧 英国 (United Kingdom) 15 - dange
   - 🇬🇧 英国 (United Kingdom) 16 - dange
-  - 🇬🇧 英国 (United Kingdom) 17 - dange
-  - 🇬🇧 英国 (United Kingdom) 18 - dange
-  - 🇬🇧 英国 (United Kingdom) 19 - dange
-  - 🇬🇧 英国 (United Kingdom) 20 - dange
-  - 🇬🇧 英国 (United Kingdom) 21 - dange
 rules:
 - MATCH,PROXIES
