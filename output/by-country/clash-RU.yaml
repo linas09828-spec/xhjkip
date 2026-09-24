@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - dange
   server: 46.8.200.91
   port: 443
@@ -39,7 +39,7 @@ proxies:
   servername: ya.ru
   client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 04 - dange
-  server: fbsv6.guardora.pro
+  server: 217.19.122.65
   port: 443
   udp: true
   type: vless
@@ -53,6 +53,19 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 05 - dange
+  server: 138.124.121.233
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  servername: amd.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -62,6 +75,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - dange
   - 🇷🇺 俄罗斯 (Russia) 03 - dange
   - 🇷🇺 俄罗斯 (Russia) 04 - dange
+  - 🇷🇺 俄罗斯 (Russia) 05 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -71,5 +85,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - dange
   - 🇷🇺 俄罗斯 (Russia) 03 - dange
   - 🇷🇺 俄罗斯 (Russia) 04 - dange
+  - 🇷🇺 俄罗斯 (Russia) 05 - dange
 rules:
 - MATCH,PROXIES
