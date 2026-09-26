@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dange",
-      "server": "104.18.34.14",
-      "server_port": 8880,
+      "server": "162.159.43.187",
+      "server_port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -20,8 +20,8 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
-      "server": "162.159.0.53",
-      "server_port": 2086,
+      "server": "162.159.39.218",
+      "server_port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -32,30 +32,12 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn---us--s---mitivpn-1.global.ssl.fastly.net"
-        }
-      }
+      "server": "62.109.12.234",
+      "server_port": 2055,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WxYpOK1iPSJySbVNMMJDtw"
     },
     {
       "type": "hysteria2",
@@ -72,27 +54,6 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
-      "server": "91.196.32.216",
-      "server_port": 9543,
-      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandexcloud.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-          "short_id": "123abcdf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dange",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -111,18 +72,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - dange",
-      "server": "msk.frkn.org",
-      "server_port": 443,
-      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk.frkn.org",
-        "insecure": false
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -131,9 +80,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
         "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange",
-        "🇷🇺 俄罗斯 (Russia) 07 - dange"
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ]
     },
     {
@@ -144,9 +91,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
         "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange",
-        "🇷🇺 俄罗斯 (Russia) 06 - dange",
-        "🇷🇺 俄罗斯 (Russia) 07 - dange"
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

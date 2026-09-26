@@ -19,31 +19,31 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "off",
+        "server_name": "202.146.222.89",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - dange",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/oneclickvpnkeys",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dange",
       "server": "202.146.222.29",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2рҹүёрҹүі",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dange",
-      "server": "119.246.1.143",
-      "server_port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me",
+        "server_name": "202.146.222.29",
         "insecure": true
       }
     },
@@ -56,40 +56,12 @@
       "tls": {
         "enabled": true,
         "server_name": "mz.hkychina.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dange",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - dange",
-      "server": "2.27.109.179",
-      "server_port": 45464,
-      "password": "XuMweB2PWs",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - dange",
       "server": "hk2.xiaoliyu.cyou",
       "server_port": 4433,
       "password": "19f72087-4591-4d72-930b-2697078ec2be",
@@ -101,13 +73,13 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - dange",
-      "server": "47.240.80.220",
-      "server_port": 2052,
-      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - dange",
+      "server": "119.246.1.143",
+      "server_port": 443,
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.12169.top",
+        "server_name": "t.me/ripaojiedian",
         "insecure": true
       }
     },
@@ -122,9 +94,7 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - dange",
         "🇭🇰 中国香港 (Hong Kong) 05 - dange",
         "🇭🇰 中国香港 (Hong Kong) 06 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 08 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 09 - dange"
+        "🇭🇰 中国香港 (Hong Kong) 07 - dange"
       ]
     },
     {
@@ -137,9 +107,7 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - dange",
         "🇭🇰 中国香港 (Hong Kong) 05 - dange",
         "🇭🇰 中国香港 (Hong Kong) 06 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 08 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 09 - dange"
+        "🇭🇰 中国香港 (Hong Kong) 07 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
