@@ -6,43 +6,6 @@
     {
       "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 01 - dange",
-      "server": "83.147.18.3",
-      "server_port": 443,
-      "uuid": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
-          "short_id": "fd8cf7e1173f0edb"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - dange",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - dange",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - dange",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -51,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -61,16 +24,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - dange",
-      "server": "66.163.118.73",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - dange",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - dange",
       "server": "esbe.vihodest.net",
       "server_port": 443,
       "uuid": "88956de8-38db-449c-8410-4b70a4fb5c9b",
@@ -90,6 +45,43 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - dange",
+      "server": "108.181.121.226",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WSyL4XTwNsdv"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - dange",
+      "server": "140.174.184.5",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qItG8SueYQcP"
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - dange",
+      "server": "83.147.18.3",
+      "server_port": 443,
+      "uuid": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
+          "short_id": "fd8cf7e1173f0edb"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -98,8 +90,7 @@
         "🇪🇸 西班牙 (Spain) 02 - dange",
         "🇪🇸 西班牙 (Spain) 03 - dange",
         "🇪🇸 西班牙 (Spain) 04 - dange",
-        "🇪🇸 西班牙 (Spain) 05 - dange",
-        "🇪🇸 西班牙 (Spain) 06 - dange"
+        "🇪🇸 西班牙 (Spain) 05 - dange"
       ]
     },
     {
@@ -110,8 +101,7 @@
         "🇪🇸 西班牙 (Spain) 02 - dange",
         "🇪🇸 西班牙 (Spain) 03 - dange",
         "🇪🇸 西班牙 (Spain) 04 - dange",
-        "🇪🇸 西班牙 (Spain) 05 - dange",
-        "🇪🇸 西班牙 (Spain) 06 - dange"
+        "🇪🇸 西班牙 (Spain) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
