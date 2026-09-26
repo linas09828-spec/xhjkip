@@ -5,6 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dange
+  server: 217.30.10.44
+  port: 9063
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: aQqJbtwFGcCCaeL3
+- name: 🇵🇱 波兰 (Poland) 02 - dange
+  server: 217.30.10.44
+  port: 9041
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: 🇵🇱 波兰 (Poland) 03 - dange
+  server: 45.192.12.93
+  port: 443
+  udp: true
+  type: hysteria2
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  sni: admin.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: 🇵🇱 波兰 (Poland) 04 - dange
   server: 185.223.57.16
   port: 33743
   udp: true
@@ -14,24 +36,11 @@ proxies:
   reality-opts:
     public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇵🇱 波兰 (Poland) 02 - dange
-  server: 151.241.138.151
-  port: 8444
-  udp: true
-  type: vless
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: sQ9CcspZ6urWlzGNjjmtfp8EuuDll5RVtcsVoq_EfUE
-    short-id: a3f509aa7a4b41cc
-  servername: pl1.gursub.com
-  client-fingerprint: safari
-- name: 🇵🇱 波兰 (Poland) 03 - dange
+- name: 🇵🇱 波兰 (Poland) 05 - dange
   server: 144.31.131.38
   port: 443
   udp: true
@@ -44,22 +53,39 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: prod.pl-node-01.security-sbrf.ru
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 04 - dange
+- name: 🇵🇱 波兰 (Poland) 06 - dange
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  udp: true
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  servername: rusbid.de
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 07 - dange
   server: 217.30.10.44
-  port: 9041
+  port: 9006
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-- name: 🇵🇱 波兰 (Poland) 05 - dange
-  server: admin.wwwinternetvideo.click
-  port: 443
+  password: FAdUvMJUq5vDgKEq
+- name: 🇵🇱 波兰 (Poland) 08 - dange
+  server: pl1.gursub.com
+  port: 8444
   udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 06 - dange
+  type: vless
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sQ9CcspZ6urWlzGNjjmtfp8EuuDll5RVtcsVoq_EfUE
+    short-id: a3f509aa7a4b41cc
+  servername: pl1.gursub.com
+  client-fingerprint: ''
+- name: 🇵🇱 波兰 (Poland) 09 - dange
   server: 188.114.96.19
   port: 80
   udp: true
@@ -72,6 +98,28 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇵🇱 波兰 (Poland) 10 - dange
+  server: 185.62.1.8
+  port: 8118
+  udp: true
+  type: vless
+  uuid: eea1c59d-70fd-4829-8ed7-21ddfe55a0da
+  tls: true
+  reality-opts:
+    public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇵🇱 波兰 (Poland) 11 - dange
+  server: 144.31.2.33
+  port: 443
+  udp: true
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  flow: xtls-rprx-vision
+  tls: true
+  servername: pl3.moritech.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -83,6 +131,11 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - dange
   - 🇵🇱 波兰 (Poland) 05 - dange
   - 🇵🇱 波兰 (Poland) 06 - dange
+  - 🇵🇱 波兰 (Poland) 07 - dange
+  - 🇵🇱 波兰 (Poland) 08 - dange
+  - 🇵🇱 波兰 (Poland) 09 - dange
+  - 🇵🇱 波兰 (Poland) 10 - dange
+  - 🇵🇱 波兰 (Poland) 11 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -94,5 +147,10 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - dange
   - 🇵🇱 波兰 (Poland) 05 - dange
   - 🇵🇱 波兰 (Poland) 06 - dange
+  - 🇵🇱 波兰 (Poland) 07 - dange
+  - 🇵🇱 波兰 (Poland) 08 - dange
+  - 🇵🇱 波兰 (Poland) 09 - dange
+  - 🇵🇱 波兰 (Poland) 10 - dange
+  - 🇵🇱 波兰 (Poland) 11 - dange
 rules:
 - MATCH,PROXIES
