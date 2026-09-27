@@ -5,32 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dange
-  server: 162.159.152.4
-  port: 443
-  udp: true
-  type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  tls: true
-  servername: rayan-007.maxima.dpdns.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇦🇪 阿联酋 (UAE) 02 - dange
-  server: 45.130.125.201
-  port: 80
-  udp: true
-  type: vless
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - dange
   server: 130.49.161.70
   port: 443
   udp: true
@@ -40,28 +14,8 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - dange
-  server: 85.204.107.173
-  port: 8080
-  udp: true
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: hopp-romania-new.roxa.org
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 05 - dange
-  server: condropolo.ggisopi.su
-  port: 443
-  udp: true
-  type: vless
-  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-  servername: condropolo.ggisopi.su
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 06 - dange
-  server: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - dange
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -69,7 +23,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇦🇪 阿联酋 (UAE) 07 - dange
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - dange
   server: 146.70.102.82
   port: 443
   udp: true
@@ -82,6 +38,14 @@ proxies:
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 04 - dange
+  server: 85.204.107.181
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,9 +55,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
   - 🇦🇪 阿联酋 (UAE) 04 - dange
-  - 🇦🇪 阿联酋 (UAE) 05 - dange
-  - 🇦🇪 阿联酋 (UAE) 06 - dange
-  - 🇦🇪 阿联酋 (UAE) 07 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,8 +64,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
   - 🇦🇪 阿联酋 (UAE) 04 - dange
-  - 🇦🇪 阿联酋 (UAE) 05 - dange
-  - 🇦🇪 阿联酋 (UAE) 06 - dange
-  - 🇦🇪 阿联酋 (UAE) 07 - dange
 rules:
 - MATCH,PROXIES

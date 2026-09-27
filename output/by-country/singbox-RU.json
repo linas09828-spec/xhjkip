@@ -6,103 +6,46 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dange",
-      "server": "66.81.247.155",
-      "server_port": 2083,
-      "uuid": "6cc29a05-4828-4e48-a34a-20b7ada60e85",
+      "server": "185.229.9.160",
+      "server_port": 443,
+      "uuid": "9e4f675b-d6bf-42d1-be55-389f622783af",
       "tls": {
         "enabled": true,
-        "server_name": "testmikonim.hydrymhmdamyn7.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "smartcaptcha.yandexcloud.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4Y0QLEasqtkWqfbrRedWqrZSPTnB14FDfI9q1v5SsHs",
+          "short_id": "0afbd1d3"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/OAZko425kNFF0PpQ",
-        "headers": {
-          "Host": "testmikonim.hydrymhmdamyn7.workers.dev"
-        }
+        "type": "grpc"
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - dange",
-      "server": "104.21.70.223",
+      "server": "fbsv6.guardora.pro",
       "server_port": 443,
-      "uuid": "527451fe-ee1f-4e6f-94ca-808f055f7c9b",
+      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "tls": {
         "enabled": true,
-        "server_name": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
+        "server_name": "fbsv6.guardora.pro",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/ERYN0G44hia16zhR",
+        "path": "/ws",
         "headers": {
-          "Host": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dange",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
-      "tls": {
-        "enabled": true,
-        "server_name": "itsallproxy.quattro-tech.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
-      "server": "46.8.200.91",
-      "server_port": 443,
-      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/v3/live",
-        "headers": {
-          "Host": "cf3.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
+          "Host": "fbsv6.guardora.pro"
         }
       }
     },
@@ -112,10 +55,7 @@
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
-        "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange"
+        "🇷🇺 俄罗斯 (Russia) 02 - dange"
       ]
     },
     {
@@ -123,10 +63,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
-        "🇷🇺 俄罗斯 (Russia) 02 - dange",
-        "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange",
-        "🇷🇺 俄罗斯 (Russia) 05 - dange"
+        "🇷🇺 俄罗斯 (Russia) 02 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
