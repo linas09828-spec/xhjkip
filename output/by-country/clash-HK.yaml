@@ -5,13 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dange
-  server: 119.246.1.143
-  port: 443
+  server: 191.223.214.11
+  port: 8444
   udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252fripaojiedian
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: 9be5ac71-b790-4364-a268-d7bed994f213
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - dange
   server: sth.free-outline.giize.com
   port: 1081
@@ -20,22 +19,30 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: v7qnj9jvxtnpmj4l
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dange
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.29
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dange
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dange
+  server: acf1b599-tmeqo0-u4zl7f-1jk6u.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  sni: acf1b599-tmeqo0-u4zl7f-1jk6u.nw4.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dange
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.89
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dange
   server: hk-1.gsafevpnapi.com
   port: 20270
   udp: true
@@ -48,29 +55,21 @@ proxies:
     short-id: d5b538acf8a93540
   servername: www.yahoo.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dange
-  server: 202.146.222.89
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dange
+  server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dange
-  server: hk2.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: hk2.xiaoliyu.cyou
+  sni: https%3a%2f%2ft.me%2fwangcai2%c3%b0%c2%9f%c2%87%c2%a8%c3%b0%c2%9f%c2%87%c2%b3
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - dange
-  server: mz.hkychina.com
-  port: 8443
+  server: 119.246.1.143
+  port: 443
   udp: true
-  type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
+  type: trojan
+  password: BxceQaOe
+  sni: 119.246.1.143
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - dange
   server: 2.27.109.179
@@ -79,7 +78,23 @@ proxies:
   type: trojan
   password: XuMweB2PWs
   sni: 2.27.109.179.sslip.io
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dange
+  server: hk2.xiaoliyu.cyou
+  port: 4433
+  udp: true
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - dange
+  server: mz.hkychina.com
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -94,6 +109,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - dange
   - 🇭🇰 中国香港 (Hong Kong) 08 - dange
   - 🇭🇰 中国香港 (Hong Kong) 09 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -108,5 +125,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - dange
   - 🇭🇰 中国香港 (Hong Kong) 08 - dange
   - 🇭🇰 中国香港 (Hong Kong) 09 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dange
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dange
 rules:
 - MATCH,PROXIES
