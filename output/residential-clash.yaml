@@ -4,21 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - dange
-  server: 172.67.133.170
-  port: 2096
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dange
+  server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
+  port: 443
   udp: true
-  type: vless
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
-  tls: true
-  servername: peekconfigg.vipserver1-39d.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: peekconfigg.vipserver1-39d.workers.dev
+  type: hysteria2
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  sni: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange
   server: hinet1.2yly.com
   port: 24215
@@ -35,14 +28,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dange
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dange
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange
 rules:
 - MATCH,PROXIES

@@ -5,22 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - dange
-  server: port2.axiomed.ir
-  port: 443
-  udp: true
-  type: vless
-  uuid: 73b03366-975a-4ca7-a41c-0f7e1b5d944a
-  tls: true
-  servername: l75yY2sJQN5Fn0Gx.fORNeWIran-1013.worKERS.DeV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/olqQqiJtpH7kVUcHl0PXN?ed=2560
-    headers:
-      Host: l75yy2sjqn5fn0gx.fornewiran-1013.workers.dev
-- name: 🇮🇶 IQ 02 - dange
-  server: arcturus.yokkastars.com
+  server: 178.17.57.34
   port: 40443
   udp: true
   type: vless
@@ -31,20 +16,18 @@ proxies:
     public-key: w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4
     short-id: db46e2946fc466fd
   servername: deepl.com
-  client-fingerprint: safari
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇶 IQ 01 - dange
-  - 🇮🇶 IQ 02 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇶 IQ 01 - dange
-  - 🇮🇶 IQ 02 - dange
 rules:
 - MATCH,PROXIES
