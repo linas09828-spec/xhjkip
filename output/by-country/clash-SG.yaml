@@ -5,28 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - dange
-  server: 128.241.25.215
-  port: 30036
-  udp: true
-  type: vless
-  uuid: 196b7228-58df-4bcf-af2a-2e96608d5add
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 02 - dange
-  server: 168.107.84.41
-  port: 56927
+  server: 68.183.227.45
+  port: 8080
   udp: true
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: s9CVCQlH8SB/LXByDobKTOMdTjJ7WScGfA57wZhHbek=
-- name: 🇸🇬 新加坡 (Singapore) 03 - dange
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 02 - dange
   server: 149.88.23.207
   port: 18000
   udp: true
@@ -34,6 +19,13 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 03 - dange
+  server: 213.35.124.191
+  port: 56927
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: f3lz1aPywEuTpS4I3mmarFU+LDABF1eDBRHJ2zNgiRM=
 - name: 🇸🇬 新加坡 (Singapore) 04 - dange
   server: 168.107.78.228
   port: 56927
@@ -42,6 +34,20 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: bkirkeLNxhjqSpiH40KS1FGcpKSwnAEWm8+DN3QLPoU=
 - name: 🇸🇬 新加坡 (Singapore) 05 - dange
+  server: 128.199.172.224
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 06 - dange
+  server: 68.183.227.236
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 07 - dange
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -49,83 +55,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 06 - dange
-  server: 18.136.119.69
-  port: 20975
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: 2bb0dc48
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 07 - dange
-  server: 54.251.239.81
-  port: 26415
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: eC5S3o9uFN6i_YjDjiALCXbc_dzh3kEm2C5zduDGtS8
-    short-id: b7dd999667b0406e
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 08 - dange
-  server: 18.140.72.106
-  port: 23070
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: px79hKhwQDhnVMdX3CF8dHKQsAVT8-FJ8ilk7JZAO2U
-    short-id: c7f5ef2673cc86bc
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 09 - dange
-  server: xjp2.mangshe.xyz
-  port: 2060
-  udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: xjp2.mangshe.xyz
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 10 - dange
-  server: 128.199.172.224
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 11 - dange
-  server: onhit.shalana.xyz
-  port: 443
-  udp: true
-  type: vless
-  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
-  tls: true
-  servername: onhit.shalana.xyz
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 12 - dange
-  server: sg-1.gsafevpnapi.com
-  port: 20270
-  udp: true
-  type: vless
-  uuid: e3a14b3d-8995-4031-a207-32ba5707c1ba
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 13 - dange
   server: 18.143.191.201
   port: 21464
   udp: true
@@ -138,53 +68,20 @@ proxies:
     short-id: 52f8
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 14 - dange
-  server: 18.140.238.157
-  port: 31870
+- name: 🇸🇬 新加坡 (Singapore) 09 - dange
+  server: 18.140.72.106
+  port: 23070
   udp: true
   type: vless
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: HEaa9lsAxLy1r13R-eB0nZWYj9n4kwxAeZFLFTKF4kc
-    short-id: 2fef6c2f
+    public-key: px79hKhwQDhnVMdX3CF8dHKQsAVT8-FJ8ilk7JZAO2U
+    short-id: c7f5ef2673cc86bc
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 15 - dange
-  server: 68.183.227.236
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 16 - dange
-  server: free-server.techsonic.dev
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  tls: true
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 17 - dange
-  server: 3.0.111.82
-  port: 10574
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 18 - dange
+- name: 🇸🇬 新加坡 (Singapore) 10 - dange
   server: 217.217.254.126
   port: 2053
   udp: true
@@ -195,8 +92,56 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
     short-id: 87829de0e2bb82cb
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 19 - dange
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 11 - dange
+  server: onhit.shalana.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  tls: true
+  servername: onhit.shalana.xyz
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 12 - dange
+  server: 146.235.16.130
+  port: 19825
+  udp: true
+  type: vless
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 13 - dange
+  server: 18.136.119.69
+  port: 20975
+  udp: true
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
+    short-id: 2bb0dc48
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 14 - dange
+  server: 54.251.239.81
+  port: 26415
+  udp: true
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: eC5S3o9uFN6i_YjDjiALCXbc_dzh3kEm2C5zduDGtS8
+    short-id: b7dd999667b0406e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 15 - dange
   server: 54.169.200.246
   port: 41688
   udp: true
@@ -208,23 +153,19 @@ proxies:
     public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
     short-id: 7f342137c20387
   servername: www.intel.com
-  client-fingerprint: qq
-- name: 🇸🇬 新加坡 (Singapore) 20 - dange
-  server: 116.251.217.65
-  port: 443
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 16 - dange
+  server: support.zoom.us
+  port: 80
   udp: true
   type: vless
-  uuid: 2388e166-3890-33ae-f77e-efac00000002
-  tls: true
-  servername: netlivpn4813.ddhshhshs.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 31727d09-1958-42d5-b437-adc9cf0ddd34
   network: ws
   ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    path: /shalana
     headers:
-      Host: netlivpn4813.ddhshhshs.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 21 - dange
+      Host: onhit.shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 17 - dange
   server: 3.0.111.82
   port: 12972
   udp: true
@@ -237,7 +178,42 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 22 - dange
+- name: 🇸🇬 新加坡 (Singapore) 18 - dange
+  server: 170.114.52.22
+  port: 443
+  udp: true
+  type: vless
+  uuid: 38415950-f815-4ca8-94d0-6cbf22be7566
+  tls: true
+  servername: asia.csmasterofficial.store
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cs
+    headers:
+      Host: asia.csmasterofficial.store
+- name: 🇸🇬 新加坡 (Singapore) 19 - dange
+  server: free-server.techsonic.dev
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 20 - dange
+  server: 138.2.73.238
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 138.2.73.238
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 21 - dange
   server: 3.0.111.82
   port: 17623
   udp: true
@@ -249,28 +225,7 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: safari
-- name: 🇸🇬 新加坡 (Singapore) 23 - dange
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: 138.2.73.238
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 24 - dange
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  udp: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -297,9 +252,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 19 - dange
   - 🇸🇬 新加坡 (Singapore) 20 - dange
   - 🇸🇬 新加坡 (Singapore) 21 - dange
-  - 🇸🇬 新加坡 (Singapore) 22 - dange
-  - 🇸🇬 新加坡 (Singapore) 23 - dange
-  - 🇸🇬 新加坡 (Singapore) 24 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -326,8 +278,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 19 - dange
   - 🇸🇬 新加坡 (Singapore) 20 - dange
   - 🇸🇬 新加坡 (Singapore) 21 - dange
-  - 🇸🇬 新加坡 (Singapore) 22 - dange
-  - 🇸🇬 新加坡 (Singapore) 23 - dange
-  - 🇸🇬 新加坡 (Singapore) 24 - dange
 rules:
 - MATCH,PROXIES
