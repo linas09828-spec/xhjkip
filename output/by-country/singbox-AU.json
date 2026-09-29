@@ -4,24 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - dange",
-      "server": "194.195.123.60",
-      "server_port": 22368,
-      "uuid": "d00d9d18-20cf-4191-be76-6f73d43a27ec",
-      "flow": "xtls-rprx-vision",
+      "server": "vpn-au-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM",
-          "short_id": "b5a3"
-        }
+        "server_name": "vpn-au-001.fastervpn.world",
+        "insecure": true
       }
     },
     {
@@ -36,7 +27,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -46,8 +37,24 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - dange",
+      "server": "192.9.172.94",
+      "server_port": 20000,
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dange",
       "server": "143.42.46.37",
       "server_port": 25605,
       "uuid": "d00d9d18-20cf-4191-be76-6f73d43a27ec",
@@ -67,13 +74,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - dange",
+      "server": "194.195.123.60",
+      "server_port": 22368,
+      "uuid": "d00d9d18-20cf-4191-be76-6f73d43a27ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM",
+          "short_id": "b5a3"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - dange",
         "🇦🇺 澳大利亚 (Australia) 02 - dange",
-        "🇦🇺 澳大利亚 (Australia) 03 - dange"
+        "🇦🇺 澳大利亚 (Australia) 03 - dange",
+        "🇦🇺 澳大利亚 (Australia) 04 - dange",
+        "🇦🇺 澳大利亚 (Australia) 05 - dange"
       ]
     },
     {
@@ -82,7 +112,9 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - dange",
         "🇦🇺 澳大利亚 (Australia) 02 - dange",
-        "🇦🇺 澳大利亚 (Australia) 03 - dange"
+        "🇦🇺 澳大利亚 (Australia) 03 - dange",
+        "🇦🇺 澳大利亚 (Australia) 04 - dange",
+        "🇦🇺 澳大利亚 (Australia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
