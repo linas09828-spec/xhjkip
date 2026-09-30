@@ -12,8 +12,52 @@
       "security": "auto"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dange",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dange",
+      "server": "85.237.207.49",
+      "server_port": 50160,
+      "password": "a56619e2bed91121eabb97d20be207c3",
+      "tls": {
+        "enabled": true,
+        "server_name": "85-237-207-49.liao.kdns.fr",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dange",
+      "server": "35.201.181.122",
+      "server_port": 443,
+      "uuid": "22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0",
+          "short_id": "32f66f37df3f58d2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - dange",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -32,25 +76,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dange",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - dange",
       "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "css.rbxcdn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dange",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2🇨🇳",
+        "server_name": "vpn-tw-002.fastervpn.world",
         "insecure": true
       }
     },
@@ -62,7 +94,9 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 - dange",
         "🇹🇼 中国台湾 (Taiwan) 03 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dange"
+        "🇹🇼 中国台湾 (Taiwan) 04 - dange",
+        "🇹🇼 中国台湾 (Taiwan) 05 - dange",
+        "🇹🇼 中国台湾 (Taiwan) 06 - dange"
       ]
     },
     {
@@ -72,7 +106,9 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - dange",
         "🇹🇼 中国台湾 (Taiwan) 02 - dange",
         "🇹🇼 中国台湾 (Taiwan) 03 - dange",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dange"
+        "🇹🇼 中国台湾 (Taiwan) 04 - dange",
+        "🇹🇼 中国台湾 (Taiwan) 05 - dange",
+        "🇹🇼 中国台湾 (Taiwan) 06 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,18 +6,6 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dange",
-      "server": "85.204.107.175",
-      "server_port": 8080,
-      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-romania-new.roxa.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - dange",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -32,8 +20,62 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - dange",
+      "server": "85.204.107.181",
+      "server_port": 8080,
+      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
+      "tls": {
+        "enabled": true,
+        "server_name": "hopp-romania-new.roxa.org",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - dange",
+      "server": "78.17.161.75",
+      "server_port": 443,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nl.ozone.nl",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM",
+          "short_id": "c2798cd4032a02b8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - dange",
+      "server": "151.241.166.181",
+      "server_port": 443,
+      "uuid": "e9844617-e393-4876-afa7-11859695f4ee",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.gazladder.work",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - dange",
       "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -52,7 +94,9 @@
         "auto",
         "🇦🇪 阿联酋 (UAE) 01 - dange",
         "🇦🇪 阿联酋 (UAE) 02 - dange",
-        "🇦🇪 阿联酋 (UAE) 03 - dange"
+        "🇦🇪 阿联酋 (UAE) 03 - dange",
+        "🇦🇪 阿联酋 (UAE) 04 - dange",
+        "🇦🇪 阿联酋 (UAE) 05 - dange"
       ]
     },
     {
@@ -61,7 +105,9 @@
       "outbounds": [
         "🇦🇪 阿联酋 (UAE) 01 - dange",
         "🇦🇪 阿联酋 (UAE) 02 - dange",
-        "🇦🇪 阿联酋 (UAE) 03 - dange"
+        "🇦🇪 阿联酋 (UAE) 03 - dange",
+        "🇦🇪 阿联酋 (UAE) 04 - dange",
+        "🇦🇪 阿联酋 (UAE) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
