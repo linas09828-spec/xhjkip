@@ -4,14 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - dange",
-      "server": "188.114.96.7",
+      "server": "199.232.78.170",
       "server_port": 443,
-      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
-        "server_name": "o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,14 +23,37 @@
       },
       "transport": {
         "type": "ws",
+        "path": "@mehrosabiran",
         "headers": {
-          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
+          "Host": "mitivpn---de--s---mitivpn-11.global.ssl.fastly.net"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - dange",
+      "server": "153.76.185.161",
+      "server_port": 3090,
+      "uuid": "6dd5eefa-bbee-413a-bf69-255813b5ae66",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 03 - dange",
+      "server": "153.76.185.160",
+      "server_port": 3090,
+      "uuid": "b24348cd-38f3-483c-aff4-f5355f254f0a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 04 - dange",
       "server": "195.133.66.229",
       "server_port": 443,
       "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
@@ -39,7 +62,7 @@
         "server_name": "nlll.gaz-service.shop",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -58,7 +81,9 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - dange",
-        "🇨🇿 捷克 (Czech) 02 - dange"
+        "🇨🇿 捷克 (Czech) 02 - dange",
+        "🇨🇿 捷克 (Czech) 03 - dange",
+        "🇨🇿 捷克 (Czech) 04 - dange"
       ]
     },
     {
@@ -66,7 +91,9 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - dange",
-        "🇨🇿 捷克 (Czech) 02 - dange"
+        "🇨🇿 捷克 (Czech) 02 - dange",
+        "🇨🇿 捷克 (Czech) 03 - dange",
+        "🇨🇿 捷克 (Czech) 04 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

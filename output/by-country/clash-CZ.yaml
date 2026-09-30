@@ -5,21 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - dange
-  server: 188.114.96.7
+  server: 199.232.78.170
   port: 443
   udp: true
-  type: vless
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  tls: true
-  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  type: trojan
+  password: mitivpn
+  sni: ssl.fastly.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+    path: '@mehrosabiran'
 - name: 🇨🇿 捷克 (Czech) 02 - dange
+  server: 153.76.185.161
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 6dd5eefa-bbee-413a-bf69-255813b5ae66
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 03 - dange
+  server: 153.76.185.160
+  port: 3090
+  udp: true
+  type: vless
+  uuid: b24348cd-38f3-483c-aff4-f5355f254f0a
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - dange
   server: 195.133.66.229
   port: 443
   udp: true
@@ -29,7 +43,7 @@ proxies:
   reality-opts:
     public-key: Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc
   servername: nlll.gaz-service.shop
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
@@ -40,6 +54,8 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - dange
   - 🇨🇿 捷克 (Czech) 02 - dange
+  - 🇨🇿 捷克 (Czech) 03 - dange
+  - 🇨🇿 捷克 (Czech) 04 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +63,7 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - dange
   - 🇨🇿 捷克 (Czech) 02 - dange
+  - 🇨🇿 捷克 (Czech) 03 - dange
+  - 🇨🇿 捷克 (Czech) 04 - dange
 rules:
 - MATCH,PROXIES
