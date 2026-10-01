@@ -12,19 +12,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 02 - dange
-  server: 204.216.216.23
-  port: 10086
-  udp: true
-  type: vless
-  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
-- name: 🇮🇹 意大利 (Italy) 03 - dange
-  server: 57.131.48.45
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇮🇹 意大利 (Italy) 04 - dange
   server: 31.76.113.240
   port: 443
   udp: true
@@ -37,7 +24,13 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
   client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 05 - dange
+- name: 🇮🇹 意大利 (Italy) 03 - dange
+  server: 204.216.216.23
+  port: 10086
+  udp: true
+  type: vless
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+- name: 🇮🇹 意大利 (Italy) 04 - dange
   server: 34.154.251.151
   port: 443
   udp: true
@@ -49,6 +42,13 @@ proxies:
     short-id: 29615707650b941d
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 05 - dange
+  server: 91.201.65.122
+  port: 9074
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: p5wSkb2uM3pKSS3j
 proxy-groups:
 - name: PROXIES
   type: select
