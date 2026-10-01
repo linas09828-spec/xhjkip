@@ -58,22 +58,35 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - dange",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "server": "els.mangshe.xyz",
+      "server_port": 2060,
+      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
       "tls": {
         "enabled": true,
-        "server_name": "ya.ru",
+        "server_name": "els.mangshe.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dange",
+      "server": "45.152.113.206",
+      "server_port": 443,
+      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.ru.oncloudnineservicestreang.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
+          "public_key": "Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs",
+          "short_id": "65557338e1cd5605"
         }
       }
     },
@@ -85,7 +98,8 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange"
+        "🇷🇺 俄罗斯 (Russia) 04 - dange",
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ]
     },
     {
@@ -95,7 +109,8 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dange",
         "🇷🇺 俄罗斯 (Russia) 02 - dange",
         "🇷🇺 俄罗斯 (Russia) 03 - dange",
-        "🇷🇺 俄罗斯 (Russia) 04 - dange"
+        "🇷🇺 俄罗斯 (Russia) 04 - dange",
+        "🇷🇺 俄罗斯 (Russia) 05 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
