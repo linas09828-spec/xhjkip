@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (移动家宽) - dange
-  server: 172.64.229.170
-  port: 8880
+- name: 🇺🇸 美国 (United States) 01 (家宽) - dange
+  server: 162.159.0.169
+  port: 2052
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -26,19 +26,57 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange
+  server: aac08668-tmm5c0-tw661e-1isea.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  sni: aac08668-tmm5c0-tw661e-1isea.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange
+  server: c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  sni: c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange
+  server: zfd-hkv1.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange
+  server: test.keoplentuio.xyz
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - dange
+  - 🇺🇸 美国 (United States) 01 (家宽) - dange
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - dange
+  - 🇺🇸 美国 (United States) 01 (家宽) - dange
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange
 rules:
 - MATCH,PROXIES

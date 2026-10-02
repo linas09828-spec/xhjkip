@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - dange",
-      "server": "172.64.229.170",
-      "server_port": 8880,
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - dange",
+      "server": "162.159.0.169",
+      "server_port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -38,20 +38,67 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange",
+      "server": "aac08668-tmm5c0-tw661e-1isea.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "d6abdbda-fe9d-11ec-bb74-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "aac08668-tmm5c0-tw661e-1isea.hk3.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange",
+      "server": "c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com",
+      "server_port": 443,
+      "password": "31676725-b0fd-fed2-c857-2da8ce5a6e4f",
+      "tls": {
+        "enabled": true,
+        "server_name": "c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange",
+      "server": "zfd-hkv1.kunlun01dns.com",
+      "server_port": 16115,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (移动家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange"
+        "🇺🇸 美国 (United States) 01 (家宽) - dange",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (移动家宽) - dange",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange"
+        "🇺🇸 美国 (United States) 01 (家宽) - dange",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - dange",
+        "🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - dange",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
