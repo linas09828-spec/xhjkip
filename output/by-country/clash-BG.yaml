@@ -6,25 +6,25 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - dange
   server: 213.183.63.60
-  port: 9054
+  port: 9064
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: cp8pRSUAyLhTfVWH
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - dange
   server: 213.183.63.60
-  port: 9098
+  port: 9030
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
+  password: GeregetR8cvQHzYr
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - dange
   server: 213.183.63.60
-  port: 9028
+  port: 9049
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 9eeJ2fwnZA5Fxgz8
+  password: PRBf4BS2HvJqtWxY
 proxy-groups:
 - name: PROXIES
   type: select

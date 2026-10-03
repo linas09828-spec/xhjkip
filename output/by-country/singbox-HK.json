@@ -4,8 +4,61 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - dange",
+      "server": "172.64.158.146",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dange",
+      "server": "104.18.39.218",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - dange",
+      "server": "162.159.0.169",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dange",
+      "server": "d0eddbf1-tmm5c0-typ01r-1p0be.nw4.hyhuawei.com",
+      "server_port": 443,
+      "password": "55cce5a4-56b7-11ee-af82-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "d0eddbf1-tmm5c0-typ01r-1p0be.nw4.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dange",
       "server": "telegram.khp25.com",
       "server_port": 1080,
       "method": "chacha20-ietf-poly1305",
@@ -13,90 +66,26 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dange",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - dange",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dange",
-      "server": "27.0.232.36",
-      "server_port": 443,
-      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.monkora.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dange",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dange",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dange",
-      "server": "mz.hkychina.com",
-      "server_port": 8443,
-      "password": "HysTeria2026!Proxy",
-      "tls": {
-        "enabled": true,
-        "server_name": "mz.hkychina.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - dange",
-      "server": "194.99.79.26",
+      "server": "202.146.222.174",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "aksai.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
-        }
+        "server_name": "https://t.me/wangcai2🇨🇳",
+        "insecure": true
       }
     },
     {
@@ -108,15 +97,15 @@
       "password": "m5nsedvdczx6x06e"
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 09 - dange",
-      "server": "47.240.80.220",
-      "server_port": 2052,
-      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
+      "server": "mz.hkychina.com",
+      "server_port": 8443,
+      "password": "HysTeria2026!Proxy",
       "tls": {
         "enabled": true,
-        "server_name": "47.240.80.220",
-        "insecure": true
+        "server_name": "mz.hkychina.com",
+        "insecure": false
       }
     },
     {
@@ -132,6 +121,30 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - dange",
+      "server": "194.99.79.26",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aksai.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - dange",
+      "server": "47.240.80.220",
+      "server_port": 5100,
+      "uuid": "71a7db14-1b6f-5aec-9e5d-9bd5f8beabab"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -145,7 +158,9 @@
         "🇭🇰 中国香港 (Hong Kong) 07 - dange",
         "🇭🇰 中国香港 (Hong Kong) 08 - dange",
         "🇭🇰 中国香港 (Hong Kong) 09 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 10 - dange"
+        "🇭🇰 中国香港 (Hong Kong) 10 - dange",
+        "🇭🇰 中国香港 (Hong Kong) 11 - dange",
+        "🇭🇰 中国香港 (Hong Kong) 12 - dange"
       ]
     },
     {
@@ -161,7 +176,9 @@
         "🇭🇰 中国香港 (Hong Kong) 07 - dange",
         "🇭🇰 中国香港 (Hong Kong) 08 - dange",
         "🇭🇰 中国香港 (Hong Kong) 09 - dange",
-        "🇭🇰 中国香港 (Hong Kong) 10 - dange"
+        "🇭🇰 中国香港 (Hong Kong) 10 - dange",
+        "🇭🇰 中国香港 (Hong Kong) 11 - dange",
+        "🇭🇰 中国香港 (Hong Kong) 12 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

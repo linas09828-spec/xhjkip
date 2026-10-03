@@ -12,7 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "fi01.clgate.network",
-        "insecure": false
+        "insecure": true
       }
     },
     {
@@ -23,43 +23,7 @@
       "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "is1-ssl.mzstatic.com"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - dange",
-      "server": "144.31.212.253",
-      "server_port": 443,
-      "password": "cf83b611-6cba-4535-adcb-8da06c6a9146",
-      "tls": {
-        "enabled": true,
-        "server_name": "vps155-edge.kermemehori.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - dange",
-      "server": "81.94.148.120",
-      "server_port": 7449,
-      "uuid": "2690c11f-7258-43fe-aeb9-d90f93a3c317",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "passport.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "blW-TdkBvKRn4-lkM64Cn2QgfOqjCRYRQ9upE6RPt3c",
-          "short_id": "c0c41dc21cf7c18e"
-        }
+        "path": "/"
       }
     },
     {
@@ -68,9 +32,7 @@
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - dange",
-        "🇫🇮 芬兰 (Finland) 02 - dange",
-        "🇫🇮 芬兰 (Finland) 03 - dange",
-        "🇫🇮 芬兰 (Finland) 04 - dange"
+        "🇫🇮 芬兰 (Finland) 02 - dange"
       ]
     },
     {
@@ -78,9 +40,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - dange",
-        "🇫🇮 芬兰 (Finland) 02 - dange",
-        "🇫🇮 芬兰 (Finland) 03 - dange",
-        "🇫🇮 芬兰 (Finland) 04 - dange"
+        "🇫🇮 芬兰 (Finland) 02 - dange"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
