@@ -15,7 +15,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - dange
-  server: 144.31.49.47
+  server: 45.192.12.93
   port: 443
   udp: true
   type: hysteria2
@@ -23,6 +23,14 @@ proxies:
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 03 - dange
+  server: 217.60.33.215
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  sni: streambox.wwwinternetvideo.click
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 04 - dange
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -39,6 +47,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - dange
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
+  - 🇦🇪 阿联酋 (UAE) 04 - dange
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +56,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - dange
   - 🇦🇪 阿联酋 (UAE) 02 - dange
   - 🇦🇪 阿联酋 (UAE) 03 - dange
+  - 🇦🇪 阿联酋 (UAE) 04 - dange
 rules:
 - MATCH,PROXIES
